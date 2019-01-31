@@ -21,16 +21,22 @@ nav a { /* links within "nav" container */
     color: gray; /* by default, links are blue*/
 }
 
-nav a:hover, #current{
+nav a:hover{
     border-bottom: 2px #003366 solid;
     font-size: 2em;
     transition: .9s;
+}
+a.on{
+    color: white;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 6px;
 }
 figure {
     display: inline;
 }
 
-div, #welcomeText {
+#welcomeText {
     display:inline-block;
     padding-right: 50px;
     text-align: center;
@@ -40,7 +46,6 @@ div, #welcomeText {
 }
 footer {
     clear: left;
-    margin-left: 100px;
     padding:0;
     width:90vw;
     height:22.5vh;
@@ -49,7 +54,6 @@ footer {
     color: #003366;
     font-size: 11px;
     position: relative;
-    top: 150px;
     text-align: center;
 }
 .csumb {
