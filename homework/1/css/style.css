@@ -1,0 +1,217 @@
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+}
+nav a.on{
+    color: black;
+    background-color: white;
+}
+nav a:hover{
+    transition: .9s;
+    color: black;
+    background-color: white;
+}
+header{
+    background-color: black;
+    margin: -8px;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+div{
+    margin-top: 25px;
+}
+.content{
+    position: relative;
+    padding: 15px;
+}
+h2{
+    margin-left: 40px;
+    font-family: fantasy;
+    font-size: 48px;
+    /*color: #ae8e91;*/
+}
+h5{
+    margin-left: 80px;
+    font-family: fantasy;
+    font-size: 18px;
+}
+p {
+    margin-left: 80px;
+    font-size: 18px;
+}
+.pivot {
+    float: left;
+    padding: 18px;
+}
+.algophoto{
+    float: right;
+    opacity: 0.5;
+    margin-right: -130px;
+}
+.algo{
+    padding: 12px;
+    margin-left: 80px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+.algo:hover{
+    background-color: white;
+    color:#c79498;
+    font-weight: bolder;
+}
+.algoTODS{
+    padding: 12px;
+    margin-left: 80px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+.algoTODS:hover{
+    background-color: white;
+    color:#a6a411;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    margin: -8px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color:#a6a411;
+}
+.qoute {
+    text-align: center;
+    font-family: cursive;
+    font-size: 24px;
+    padding: 20px;
+    width: 50%;
+}
+.algotext{
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.cp{
+    float: right;
+    padding: 8px;
+}
+.nostyle{
+    list-style: none;
+    font-size: 16px;
+    text-align: left;
+}
+.array{
+    color: red;
+    font-size: 24px;
+    display: inline;
+}
+.tooltip {
+    display:inline-block;
+    position:relative;
+    border-bottom:1px dotted #666;
+    text-align:left;
+    margin-left: 100px;
+    color: gray;
+    font-size: 24px;
+}
+
+.tooltip .right {
+    min-width:500px; 
+    top:50%;
+    left:100%;
+    margin-left:20px;
+    transform:translate(0, -50%);
+    padding:10px 20px;
+    color:#000000;
+    background-color:#EEEEEE;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+}
+
+.tooltip:hover .right {
+    display:block;
+}
+
+.tooltip .right i {
+    position:absolute;
+    top:50%;
+    right:100%;
+    margin-top:-12px;
+    width:12px;
+    height:24px;
+    overflow:hidden;
+}
+
+.tooltip .right i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:0;
+    top:50%;
+    transform:translate(50%,-50%) rotate(-45deg);
+    background-color:#EEEEEE;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+.dataone{
+    width: 600px;
+    float: right;
+    padding: 25px;
+    opacity: 0.5;
+}
+.noStyleLink{
+    list-style: none;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+.problems{
+    margin-left: 70px;
+}
+ol li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 1.6;
+}
+ol li a:hover{
+    color:#278626;
+}
+.classic{
+    font-size: 22px;
+}
+.code{
+    width: 800px;
+    float: right;
+    border-radius: 20px;
+    margin-top: -120px;
+}
+h3{
+    color: #278626;
+}
