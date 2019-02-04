@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Seasons - Practice 1 </title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <style>
+        body{
+            text-align: center;
+            background-color: black;
+        }
+        .cell {
+            width: auto;
+            height: auto;
+            padding: 2px;
+        }
+
+        #row1,
+        #row2 {
+            display: flex;
+            margin: auto;
+            width: 50%;
+            
+        }
+        img{
+            width:350px;
+            height: 233px;
+        }
+        img:hover{
+            width:420px;
+            height:266px;
+        }
+        #topleft{
+            border-top-left-radius: 25px;
+            
+        }
+        #topright{
+            border-top-right-radius: 25px;
+        }
+        #bottomleft{
+            border-bottom-left-radius: 25px;
+        }
+        #bottomright{
+            border-bottom-right-radius: 25px;
+        }
+        p{
+            font-family: 'Pacifico', cursive;
+            color:white;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            font-family: 'Pacifico', cursive;
+            color:#ab7ff5;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <div class="content">
+        <h1> The Seasons </h1>
+        <div id="row1">
+            <div class="cell">
+                <a href="https://en.wikipedia.org/wiki/Spring_(season)"><img id="topleft" src="img/spring.png"></img></a>
+                <p>Spring </p>
+            </div>
+            <div class="cell">
+               
+                <a href="https://en.wikipedia.org/wiki/Summer "> <img id="topright" src="img/summer.png"></img> </a>
+                <p>Summer</p>
+            </div>
+        </div>
+        <hr width= "50%"> 
+        <div id="row2">
+            <div class="cell">
+                <a href=" https://en.wikipedia.org/wiki/Autumn"><img id="bottomleft"src="img/fall.png"></img></a>
+                
+                <p>Autumn</p>
+            </div>
+            <div class="cell">
+                <a href="https://en.wikipedia.org/wiki/Winter "> <img id="bottomright"src="img/winter.png"></img></a>
+               
+                <p>Winter</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
