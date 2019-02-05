@@ -115,6 +115,7 @@ ul li a:hover{
     font-size: 20px;
     line-height: 1.5em;
     width:100%;
+    margin-left: 40px;
 }
 .cp{
     padding: 8px;
@@ -233,4 +234,7 @@ section{
     display: block;
     height: 0;
     clear: both;
+}
+hr{
+    width: 100%;
 }
