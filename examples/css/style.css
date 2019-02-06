@@ -1,36 +1,54 @@
-main, aside, section, article, search, header, footer, .content {
-    /*border: 1px solid red;*/
-}
-footer, section, article{
-    /*border: 2px solid red;*/
-    padding: 4px;
-}
-.supportImg{
-    height:150px;
-    width:60%;
-    display:block;
-    margin:auto;
-}
-.search{
-    width:20px;
-    height: 10px;
-}
-form{
-    padding: 14px;
-}
-section{
-    /*position: relative;*/
-}
-.helpbtn{
-    width: 20px;
-    height: 20px;
-    position: sticky;
-    top: 0;
-}
-.container{
-    padding-right: 200px;
-    position: relative;
-    /*overflow:hidden;*/
-}
+ main,
+        header,
+        section.content,
+        section.left,
+        search,
+        aside,
+        article,
+        footer {
+            /*display: inline;*/
+            padding: 3px;
+            margin: 3px;
+            border: 1px solid black;
+        }
 
+        section.left {
+            border: 2px solid red;
+        }
 
+        button {
+            background-color: yellow;
+            padding: 3px;
+        }
+
+        button img {
+            height: 20px;
+            width: 20;
+        }
+
+        section.content {
+            display: flex;
+        }
+
+        aside {
+            min-width: 20%;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+        }
+        
+        header img {
+            height: 100px;
+        }
+
+        section.left {
+            position: relative;
+        }
+
+        button.help {
+            position: absolute;
+            bottom: 50px;
+            right: 50px;
+        }
