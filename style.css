@@ -66,6 +66,7 @@ h1 {
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: -15px;
 }
 a{
     text-decoration: none;
