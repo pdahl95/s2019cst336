@@ -2,8 +2,8 @@
 .homework,
 .welcome {
     /*border: 1px solid red;*/
-    padding: 20px;
-    margin: 20px;
+    /*padding: 20px;*/
+    /*margin: 20px;*/
 }
 .welcome {
     text-align: center;
@@ -11,19 +11,12 @@
     margin-top: 5%;
     font-size: 26px;
 }
-.lab,
-.homework {
+.lab,.homework, .examples, .practise {
     width: 50%;
     height: 50%;
-    padding: 12px;
     /*border: solid 1px red;*/
 }
-.lab{
-    /*background-color: black;*/
-    height: 300px;
-    width: 600px;
-}
-#row1 {
+#row1, #row2 {
     display: flex;
     margin: auto;
     width: 50%;
@@ -43,7 +36,6 @@ h1 {
 .title {
     font-family: 'Fredericka the Great', cursive;
     font-size: 42px;
-    /*background-color: pink;*/
     text-align: center;
     padding: 20px;
     margin-top: -1px;
