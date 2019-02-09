@@ -1,12 +1,9 @@
 // jQuery Functions 
 /* global $ */
 $(document).ready(function() {
-    $('.title').css("font-family", "cursive");
-    $('div').css("font-family", "cursive");
+    $('.title').css("font-family", "Times New Roman");
+    $('div').css("font-family", "Times New Roman");
     
-    $("label").mouseover(function(){
-        $("label").css("color", "pink");
-    });
     $("label").mouseout(function(){
         $("label").css("color", "black");
     });
