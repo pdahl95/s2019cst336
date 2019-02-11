@@ -15,7 +15,8 @@
 .title{
   color: white;
   background-color: #002a4e;
-  margin-left:-18px;
+  margin-left:-30px;
+  margin-right: -30px;
   
 }
 .textTitle{
@@ -24,12 +25,18 @@
 }
 
 body{
-  padding: 10px;
+  padding: 20px;
   font-family: "Helvetica Neue", sans-serif;
   line-height:1.6;
-  /*font-weight: lighter;*/
 }
 
 a {
   color: #002a4e;
+}
+.column img{
+  width: 100%;
+}
+header{
+  height: 120px;
+  margin-top: -30px;
 }
