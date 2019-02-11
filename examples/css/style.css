@@ -1,54 +1,81 @@
  main,
-        header,
-        section.content,
-        section.left,
-        search,
-        aside,
-        article,
-        footer {
-            /*display: inline;*/
-            padding: 3px;
-            margin: 3px;
-            border: 1px solid black;
-        }
+ header,
+ section.content,
+ section.left,
+ search,
+ aside,
+ article,
+ footer {
+  padding: 3px;
+  margin: 3px;
+  border: 1px solid black;
+ }
 
-        section.left {
-            border: 2px solid red;
-        }
+ section.left {
+  border: 2px solid pink;
+ }
 
-        button {
-            background-color: yellow;
-            padding: 3px;
-        }
+ button {
+  background-color: yellow;
+  padding: 3px;
+ }
 
-        button img {
-            height: 20px;
-            width: 20;
-        }
+ button img {
+  height: 20px;
+  width: 20;
+ }
 
-        section.content {
-            display: flex;
-        }
+ section.content {
+  display: flex;
+ }
+@media screen and (max-width:600px) {
+  section.content {
+   display: block;
+  }
+}
 
-        aside {
-            min-width: 20%;
-        }
+ aside {
+  min-width: 20%;
+ }
 
-        header {
-            display: flex;
-            justify-content: center;
-        }
-        
-        header img {
-            height: 100px;
-        }
+ header {
+  display: flex;
+  justify-content: center;
+ }
 
-        section.left {
-            position: relative;
-        }
+ header img {
+  height: 100px;
+ }
 
-        button.help {
-            position: absolute;
-            bottom: 50px;
-            right: 50px;
-        }
+ section.left {
+  position: relative;
+ }
+
+ button.help {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+ }
+
+ .floated {
+  float: right;
+  margin: 10px;
+  width: 30%;
+ }
+
+ .clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+ }
+ 
+@media screen and (max-width:600px) {
+  article, aside {
+   font-size: 22px;
+  }
+}
+
+
+ 

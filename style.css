@@ -1,25 +1,8 @@
-.lab,
-.homework,
-.welcome {
-    /*border: 1px solid red;*/
-    /*padding: 20px;*/
-    /*margin: 20px;*/
-}
 .welcome {
     text-align: center;
     padding: 10px;
-    margin-top: 5%;
+    /*margin-top: 5%;*/
     font-size: 26px;
-}
-.lab,.homework, .examples, .practise {
-    width: 50%;
-    height: 50%;
-    /*border: solid 1px red;*/
-}
-#row1, #row2 {
-    display: flex;
-    margin: auto;
-    width: 50%;
 }
 h1 {
     text-align: center;
@@ -27,7 +10,11 @@ h1 {
     font-size: 50px;
     padding-top: 65px;
 }
-
+.headerTitle{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 65px;
+}
 .name {
     font-size: 32px;
     text-align: center;
@@ -36,7 +23,7 @@ h1 {
 .title {
     font-family: 'Fredericka the Great', cursive;
     font-size: 42px;
-    text-align: center;
+    /*text-align: center;*/
     padding: 20px;
     margin-top: -1px;
 }
@@ -60,3 +47,27 @@ a:hover{
     color: #ebafc6;
     font-size: 22px;
 }
+.w3-row-padding{
+    width: 80%;
+    /*border: 2px solid black;*/
+    margin: 0 auto;
+}
+.w3-third .title{
+    text-align: left;
+    /*border: 2px solid black;*/
+}
+hr{
+    width:80%;
+    margin: 0 auto;
+    /*padding: 20px;*/
+}
+/*.lab,.homework, .examples, .practise {*/
+/*    width: 50%;*/
+/*    height: 50%;*/
+    /*border: solid 1px red;*/
+/*}*/
+/*#row1, #row2 {*/
+/*    display: flex;*/
+/*    margin: auto;*/
+/*    width: 50%;*/
+/*}*/

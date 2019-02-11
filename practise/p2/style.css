@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 220px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.title{
+  color: white;
+  background-color: #002a4e;
+  margin-left:-18px;
+  
+}
+.textTitle{
+  padding: 15px;
+  font-weight: normal;
+}
+
+body{
+  padding: 10px;
+  font-family: "Helvetica Neue", sans-serif;
+  line-height:1.6;
+  /*font-weight: lighter;*/
+}
+
+a {
+  color: #002a4e;
+}
