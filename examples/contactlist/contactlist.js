@@ -1,5 +1,5 @@
 // JavaScript File
-function printContact(contact) {
+function printContact(contact,index) {
     var contactList = document.getElementById("contact-list");
 
     //<li class="list-group-item">
@@ -22,8 +22,8 @@ function printContact(contact) {
     //            <img src="http://demos.themes.guide/bodeo/assets/images/users/m101.jpg" alt="Mike Anamendolla" class="rounded-circle mx-auto d-block img-fluid">
     var pictureImg = document.createElement("img");
     pictureImg.setAttribute("class", "rounded-circle mx-auto d-block img-fluid");
-    pictureImg.setAttribute("src", "http://demos.themes.guide/bodeo/assets/images/users/m101.jpg");
-    pictureImg.setAttribute("alt", "Mike Anamendolla");
+    pictureImg.setAttribute("src", contact.pictureUrl);
+    pictureImg.setAttribute("alt", contact.name);
     // Very important step here!
     pictureColumnDiv.appendChild(pictureImg);
 
@@ -43,8 +43,10 @@ function printContact(contact) {
 
     //            <label class="name lead">Mike Anamendolla</label>
     var nameLabel = document.createElement("label");
-    nameLabel.setAttribute("class", "name lead");
-    nameLabel.innerHTML = "Mike Anamendolla";
+    nameLabel.setAttribute("class", "name lead")
+    nameLabel.setAttribute("data-index", index);
+    nameLabel.addEventListener("onclick", onNameClick(this));
+    nameLabel.innerHTML = contact.name;
     infoColumnDiv.appendChild(nameLabel);
 
     //            <br>
@@ -55,14 +57,14 @@ function printContact(contact) {
     var addressActionSpan = document.createElement("span");
     addressActionSpan.setAttribute("class", "fa fa-map-marker fa-fw text-muted");
     addressActionSpan.setAttribute("data-toggle", "tooltip");
-    addressActionSpan.setAttribute("data-original-title", "5842 Hillcrest Rd");
+    addressActionSpan.setAttribute("data-original-title", contact.address);
     addressActionSpan.setAttribute("title", "");
     infoColumnDiv.appendChild(addressActionSpan);
 
     //            <span class="text-muted">5842 Hillcrest Rd</span>
     var addressSpan = document.createElement("span");
     addressSpan.setAttribute("class", "text-muted");
-    addressSpan.innerHTML = "5842 Hillcrest Rd";
+    addressSpan.innerHTML = contact.address;
     infoColumnDiv.appendChild(addressSpan);
 
     //            <br>
@@ -73,14 +75,14 @@ function printContact(contact) {
     var phoneActionSpan = document.createElement("span");
     phoneActionSpan.setAttribute("class", "fa fa-phone fa-fw text-muted");
     phoneActionSpan.setAttribute("data-toggle", "tooltip");
-    phoneActionSpan.setAttribute("data-original-title", "(870) 288-4149");
+    phoneActionSpan.setAttribute("data-original-title", contact.phone);
     phoneActionSpan.setAttribute("title", "");
     infoColumnDiv.appendChild(phoneActionSpan);
 
     //            <span class="text-muted small">(870) 288-4149</span>
     var phoneSpan = document.createElement("span");
     phoneSpan.setAttribute("class", "text-muted small");
-    phoneSpan.innerHTML = "(870) 288-4149";
+    phoneSpan.innerHTML = contact.phone;
     infoColumnDiv.appendChild(phoneSpan);
 
     //            <br>
@@ -98,7 +100,7 @@ function printContact(contact) {
     //            <span class="text-muted small text-truncate">mike.ana@example.com</span>
     var emailSpan = document.createElement("span");
     emailSpan.setAttribute("class", "text-muted small text-truncate");
-    emailSpan.innerHTML = "mike.ana@example.com";
+    emailSpan.innerHTML = contact.email;
     infoColumnDiv.appendChild(emailSpan);
 
     //        </div>
@@ -108,3 +110,4 @@ function printContact(contact) {
     //</li>
     // DON'T NEED CODE--JUST A CLOSE TAG
 }
+

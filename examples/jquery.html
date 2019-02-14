@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> jQuery Example </title>
+</head>
+
+<body>
+    <h2>Weekdays:</h2>
+    <h3>Monday</h3>
+    <h3>Tuesday</h3>
+    <h2>Weekend:</h2>
+    <h3>Saturday</h3>
+    <h3>Sunday</h3>
+
+    <div id="box" style="width:100px; height:100px; background:red; position:absolute;">
+
+    </div>
+
+    <!--<img src="img/img.jpg"></img>-->
+
+    <!--<h2 id="weekday">Weekdays:</h2>-->
+    <!--<h3 class="smallFont"> Wednesday</h3>-->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script>
+        $("document").ready(function() {
+            // jquery code will go here 
+            $("h2").css("color", "red");
+            $("h3:first").html("Today is Monday");
+
+            $("#weekday").css("color", "red");
+            $(".smallFont").css("color", "red");
+
+            $('img').click(function() {
+                $(this).css("border", "solid 2px");
+            });
+            $('h3').click(function() {
+                $(this).css("border", "solid 2px");
+            });
+
+            $('#box').click(function() {
+                var cssLeft = $('#box').css("left");
+                
+                $('#box').animate({ left: '250px' });
+                
+                setTimeout(function() {
+                    // $("#box").animate({ left: 'cssLeft' });
+                }, 2000);
+            });
+            $('#box').click(function() {
+                console.log("I was clicked");
+            });
+
+
+
+        });
+    </script>
+
+</body>
+
+</html>

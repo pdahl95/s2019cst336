@@ -76,6 +76,11 @@
    font-size: 22px;
   }
 }
+@media screen and (max-width:600px) {
+  floated {
+   width: ;
+  }
+}
 
 
  

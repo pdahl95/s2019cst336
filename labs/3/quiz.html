@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Quiz - Lab 3</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <!--<h1> Quiz </h1>-->
+            <img class="header-img" src="img/header.png"></img>
+        </header>
+
+        <form>
+            <div class="input-group">
+                <label for="feedback"> 
+            </label>
+                <!-- Question 1  -->
+                <div class="boxq">
+                    <div class="questions"> 1. All HTML tags must have an opening and closing tag: true or false? </div>
+                    <div>
+                        <input type="radio" id="ans1" name="choice1" value="1">
+                        <label for="ans1">True</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ans2" name="choice1" value="2">
+                        <label for="ans2">False</label>
+                    </div>
+                    <div id="result1"></div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="boxq">
+                    <div class="questions"> 2. HTML is typically displayed on the client or server? </div>
+                    <div>
+                        <input type="radio" id="ans3" name="choice2" value="3">
+                        <label for="ans3">Server</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ans4" name="choice2" value="4">
+                        <label for="ans4">Client</label>
+                    </div>
+                    <div id="result2"></div>
+                </div>
+
+                <!--Question 3 -->
+                <div class="boxq">
+                    <div class="questions"> 3. What does null mean? </div>
+                    <div>
+                        <input type="radio" id="ans5" name="choice3" value="5">
+                        <label for="ans5">A value is explicitly not provided</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ans6" name="choice3" value="6">
+                        <label for="ans6">A value has not been defined</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ans7" name="choice3" value="7">
+                        <label for="ans7">Null means zero</label>
+                    </div>
+                    <div id="result3"></div>
+                </div>
+
+                <!--Question 4 -->
+                <div class="boxq">
+                    <div class="questions"> 4. True or False: you can have multiple remotes associated to your local repo </div>
+                    <div>
+                        <input type="radio" id="ans8" name="choice4" value="8">
+                        <label for="ans8">True</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ans9" name="choice4" value="9">
+                        <label for="ans9">False</label>
+                    </div>
+                    <div id="result4"></div>
+                </div>
+
+                <!--Question 5 -->
+                <div class="boxq">
+                    <div class="questions"> 5. True or False: an array is an object? </div>
+                    <div>
+                        <input type="radio" id="ans10" name="choice5" value="10">
+                        <label for="ans10">True</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ans11" name="choice5" value="11">
+                        <label for="ans11">False</label>
+                    </div>
+                    <div id="result5"></div>
+                </div>
+
+                <!--Question 6 -->
+                <div class="boxq">
+                    <div class="questions"> 6. How is date stored internally by the JavaScript engine?</div>
+                    <div>
+                        <input type="radio" id="ans12" name="choice6" value="12">
+                        <label for="ans12">A real number represented by seconds since January 1, 1970</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ans13" name="choice6" value="13">
+                        <label for="ans13">A real number represented by minutes since January 1, 1970</label>
+                    </div>
+                    <div id="result6"></div>
+                </div>
+
+                <!-- Submit Button (After all 6 questions have been answered)-->
+                <div>
+                    <button class="checker" type="button"> Submit Answers</button>
+                </div>
+            </div>
+        </form>
+
+        <!--Grade from the quiz-->
+        <div id="totalScore"></div>
+        <div id="congrats"></div>
+
+    </main>
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
+
+
+</body>
+
+</html>
