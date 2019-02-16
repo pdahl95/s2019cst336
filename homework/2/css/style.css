@@ -1,0 +1,111 @@
+.flex-grid {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background-color: pink;
+  height: 120px;
+  margin-right: -70px;
+  margin-bottom: 60px;
+  margin-top: 25px;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  padding-top: 40px;
+  padding-left: 8px;
+}
+
+.underTitle {
+  font-size: 22px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.6;
+}
+
+.boxq2 {
+  margin-left: 75px;
+}
+
+.boxq3 {
+  margin-top: 50px;
+}
+
+.contact {
+  text-align: right;
+  margin-top: 15px;
+}
+
+label {
+  line-height: 2;
+}
+
+.personal {
+  padding-top: 20px;
+}
+
+.pinfo {
+  width: 250px;
+  height: 35px;
+  text-indent: 5px;
+}
+
+.info {
+  margin: 20px 0px 0px;
+  width: 342px;
+  height: 320px;
+  margin-left: 50px;
+}
+
+input[type="text"] {
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
+}
+
+textarea {
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
+}
+
+.checker {
+  position: relative;
+  left: 1020px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.socialIcon {
+  width: 200px;
+  height: 75px;
+  margin: -40px;
+}
+
+@media screen and (max-width: 1122px) {
+  .flex-grid {
+    display: block;
+  }
+  .boxq2 {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .info {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .checker {
+    position: relative;
+    left: 20px;
+  }
+  button {
+    margin: 20px 0 20px 0;
+  }
+}

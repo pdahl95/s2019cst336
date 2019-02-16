@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Homework 2 </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="contact">
+            <img class="socialIcon" src="img/social.png"></img>
+        </div>
+        <header>
+            <h1> Let's find out more about you! </h1>
+        </header>
+
+
+        <div class="content">
+            <form>
+                <div class="input-group">
+                    <label for="feedback"> 
+            </label>
+                    <div class="flex-grid">
+                        <!-- -->
+                        <div class="col">
+                            <div class="boxq1">
+                                <div class="underTitle"> Timeframe <br> - How long have you studied CS? </div>
+                                <div>
+                                    <input type="radio" id="sixMonth" name="timeframe" value="1">
+                                    <label for="sixMonth"> Less than 6 moths </label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="twoyear" name="timeframe" value="2">
+                                    <label for="twoyear"> 1 - 2 years </label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="moreYears" name="timeframe" value="3">
+                                    <label for="moreYears"> 3+ years </label>
+                                </div>
+                                <br>
+                                <div id="timeRes"></div>
+                            </div>
+
+                            <div class="boxq3">
+                                <div class="underTitle"> Topics <br> - Which is your favorite topic(s)? </div>
+                                <div>
+                                    <input type="checkbox" id="algo" name="topic" value="4">
+                                    <label for="algo"> Algorithms and data structures </label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="arch" name="topic" value="5">
+                                    <label for="arch"> Computer architecture </label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="db" name="topic" value="6">
+                                    <label for="db"> Databases </label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="graphics" name="topic" value="7">
+                                    <label for="graphics"> Computer graphics </label>
+                                </div>
+                                <br> 
+                                <div id="topicRes"></div>
+                            </div>
+                        </div>
+                        <!-- -->
+                        <div class="col">
+                            <div class="boxq2">
+                                <div class="underTitle"> Personal Details</div>
+                                <div class="personal">
+                                    <input class="pinfo" type="text" name="firstname" placeholder="First name" />
+                                </div>
+                                <div class="personal">
+                                    <input class="pinfo" type="text" name="lastname" placeholder="Last name" />
+                                </div>
+                                <div class="personal">
+                                    <input class="pinfo" type="text" name="email" placeholder="Email" />
+                                </div>
+                                <div class="personal">
+                                    <input class="pinfo" type="text" name="school" placeholder="School" />
+                                </div>
+                                <div class="personal">
+                                    <input class="pinfo" type="text" name="year" placeholder="Level" />
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- -->
+                        <div class="col">
+                            <div class="boxq4">
+                                <div class="underTitle"> </div>
+                                <div class="textArea">
+                                    <textarea class="info" rows="4" cols="50" placeholder="Tell us about a project!"></textarea>
+                                </div>
+                                <br>
+                                <div id="feedbackRes"></div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="checker" type="button"> Submit </button>
+                    </div>
+
+                </div>
+            </form>
+    </main>
+
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
+
+
+</body>
+
+</html>
