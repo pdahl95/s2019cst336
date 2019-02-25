@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Weather API </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+<body id="dummybodyid">
+    <header>
+        <h1> Weather Forecast </h1>
+    </header>
+
+    <form method="post">
+        <div><label>Enter City: </label><input type="text" id="location" value=""></div>
+        <button class="btn" type="submit"> Check Weather</button>
+    </form>
+
+    <div id="show"></div>
+
+    <script>
+        $(document).ready(function() {
+            $('btn').click(function() {
+                var city = $('#location').val();
+                if (city != '') {
+                    $.ajax({
+                        url: "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&APPID=" + "3d9958dc4122c2a921ae84e8658f7479",
+                        type: "GET",
+                        dataType: "jsonp",
+                        success: function(data) {
+                            
+                            var widget = show(data);
+
+                            $('#show').html(widget);
+
+                            var city = $('#city').val('');
+                        }
+                    });
+                }
+                else {
+                    $('#error').html("Field cannot be empty");
+                }
+            });
+        });
+
+        function show(data) {
+            console.log(data);
+            return "<h3> <b> Weather </b>: " + data[0].main + "</h3>" +
+                "<h3> <b> Description </b>: " + data[0].description + "</h3>" + 
+                "<h3> <b> Icon </b>: " + data.icon + "</h3>";
+        }
+    </script>
+
+</body>
+
+</html>

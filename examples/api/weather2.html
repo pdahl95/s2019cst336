@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Weather API</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style type="text/css">
+        #rowDiv {
+            margin: auto;
+            text-align: center;
+            width: 100%;
+        }
+
+        input[type="text"] {
+            height: 40px;
+            font-size: 20px;
+            margin: 8px;
+        }
+
+        #submitWeather {
+            height: 40px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron" style="margin-bottom:0px; color:white; background-color:#4aa1f3;">
+        <h2 class="text-center" style="font-size: 50px; font-weight: 600;"> Get Current Weather </h2>
+    </div>
+
+    <div class="container">
+        <div class="row" style="margin-bottom:20px;" id="rowDiv">
+            <h3 class="text-center text-primary"> Enter City Name: </h3>
+        </div>
+
+        <div class='row form-group form-inline' id="rowDiv">
+            <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
+            <button id="submitWeather" class="btn btn-primary "> Search City</button>
+        </div>
+
+        <div id="show"></div>
+    </div>
+
+    <script>
+    /* global $ */
+        $(document).ready(function() {
+            $('#submitWeather').click(function() {
+                var city = $('#city').val();
+                if (city != '') {
+                    $.ajax({
+                        url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + "&appid=d9eea26c4601a136e638eebaf590817c",
+                        type: "GET",
+                        dataType: "json",
+                        success: function(data, status) {
+                            $('#show').html(data);
+                            
+                        }
+                    });
+                }
+            });
+        });
+
+    
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
