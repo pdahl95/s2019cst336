@@ -12,8 +12,6 @@ $(document).ready(function() {
         updateFromZipCode(); 
     });
     $(".btn").on("click", function() {
-        // updateFromZipCode();
-        // addListOfCounties();
         checkIfUserNameIsAvailable();
         validateEqualPassword();
 
