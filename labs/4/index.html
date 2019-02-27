@@ -32,35 +32,36 @@
                         <input type="text" placeholder="Enter your phone number">
 
                         <div><label>Zip Code</label></div>
-                        <input id="zip" type="text"><span id="errorZip"> </span>
+                        <input id="zip" type="text" placeholder="Enter Zip Code"><span id="errorZip"> </span>
 
-                        <div><label>City</label>
+                        <div><label>City: </label>
                             <span class="city"> </span>
                         </div>
 
-                        <div><label>Latitude</label>
+                        <div class="update"><label>Latitude: </label>
                             <span id="lati"></span></div>
 
-                        <div><label>Longitude</label>
+                        <div class="update"><label>Longitude: </label>
                             <span id="longi"> </span>
                         </div>
 
-                        <div><label>State</label></div>
-                        <input type="text" placeholder="Enter state">
+                        <div class="update"><label>State</label></div>
+                        <input id="state" type="text" placeholder="Enter state">
 
                         <div><label>Select a County</label>
-                            <select></select>
+                            <select id="selectList"></select>
                             <br><br>
                         </div>
 
-                        <div><label>Desired Username</label><span id="message"></span></div>
-                        <input id="userName" type="text" placeholder="Enter username">
+                        <div><label>Desired Username</label></div>
+                        <input id="userName" type="text" placeholder="Enter username"><span id="message"></span>
 
                         <div><label>Password</label></div>
-                        <input type="password" placeholder="********">
+                        <input id="passWord" type="password" placeholder="********">
 
                         <div><label>Type Password Again</label></div>
-                        <input type="password" placeholder="********">
+                        <span id="passwordValidation"> </span>
+                        <input id="retypePassword" type="password" placeholder="********">
                         <div>
                             <input class="btn" type="button" value="SIGN UP">
                         </div>

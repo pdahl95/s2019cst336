@@ -1,101 +1,107 @@
 // JavaScript File
-$(".btn").on("click", function() {
-    $.ajax({
-        type: "GET",
-        url: "itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php?",
-        dataType: "json",
-        data: {
-            "zip": $("#zip").val()
-        },
-        success: function(data) {
-            console.log(data);
-            // Updating based on the zip code 
-            $('.city').html(data.city);
-            $('#lati').html(data.latitiude);
-            $('#longi').html(data.longitude);
+/* global $ */
 
-            // Zip Not found or is empty 
-            zipValidation();
+$(document).ready(function() {
+    $("#state").keydown(function(){
+       addListOfCounties(); 
+    });
+    $("#state").focusout(function(){
+        addListOfCounties(); 
+    });
+    $("#zip").focusout(function(){
+        updateFromZipCode(); 
+    });
+    $(".btn").on("click", function() {
+        // updateFromZipCode();
+        // addListOfCounties();
+        checkIfUserNameIsAvailable();
+        validateEqualPassword();
 
-            // List of counties 
-
-
-            // Invalid username message 
-            invalidUsername();
-        }
     });
 
-});
+    function updateFromZipCode() {
+        var zipValue = $('#zip').val();
+        if (zipValue == "" || zipValue.length < 5) {
+            // alert('enter a zip code!');
+            $('#errorZip').html("Zip Code not found!").css({
+                "color": "red",
+                "font-size": "22px"
+            });
+        }
+        else {
+            //process ajax request
+            var zipcodeRequest = $.ajax({
+                type: "GET",
+                url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                dataType: "json",
+                data: {
+                    "zip": $("#zip").val()
+                }
+            });
 
-function zipValidation() {
-    // make sure zip input is not empty, if it is empty display a message next to it! 
-    var checkZip = $('.zip').val();
-    if (checkZip == '') {
-        $('#errorZip').html("Zip Code not found!");
-    }
-}
+            zipcodeRequest.done(function(data) {
+                $('.city').html(data.city);
+                $('#lati').html(data.latitude);
+                $('#longi').html(data.longitude);
+            });
 
-function invalidUsername() {
-    var notEmptyUserName = $('#userName').val();
-    if (notEmptyUserName != '') {
-        addUserName();
-        $("#message").html("Username is available!").css("color", "green");
-    }
-    else {
-        $("#message").html("Username is not available!").css("color", "red");
-
-    }
-}
-function updateTextFromZip(data) { // function to update city, longitude and latitiude 
-    // city 
-    // $('.city').html(data.city);
-}
-
-Array.prototype.contains = function(obj) {
-    var i = this.length;
-    while (i--) {
-        if (this[i] == obj) {
-            return true;
+            zipcodeRequest.fail(function(jqXHR, textStatus) {
+                $('#errorZip').html("We could not find your zip code (" + textStatus + ").").css("color", "red");
+            });
         }
     }
-    return false;
-}
 
-var usernamesArray = [];
+    function addListOfCounties() {
+        $.ajax({
+            type: "GET",
+            url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+            dataType: "json",
+            data: {
+                "state": $("#state").val()
+            },
+            success: function(data) {
+                // console.log(data);
+                var res = '';
+                $.each(data, function(v) {
+                    var val = data[v].county;
+                    res += "<option value='" + val + "'>" + val + "</option>";
+                });
+                $('#selectList').html(res);
+            }
+        });
+    }
 
-function addUserName() {
-    username = $('#userName').val();
-    usernamesArray.push(username);
-    console.log("Username: " + usernamesArray.join(", "));
-    // must check if username is not already in the array
-}
+    function checkIfUserNameIsAvailable() {
+        var usernamesArray = ["pdahl95", "isThisAvailable", "Jolleen89", "Jason", "Rosario"];
+        var username = $('#userName').val();
+        for (var i = 0; i < usernamesArray.length; i++) {
+            if (username != '') {
+                if (usernamesArray.includes(username)) {
+                    $("#message").html("Username is not available!").css({
+                        "color": "red",
+                        "font-size": "22px"
+                    });
+                }
+                else {
+                    $("#message").html("Username is available!").css({
+                        "color": "green",
+                        "font-size": "22px"
+                    });
+                }
+            }
+        }
+    }
 
+    function validateEqualPassword() {
+        var password = $('#passWord').val();
+        var retypePassword = $('#retypePassword').val();
 
-function getListOfCountiesBasedOnState() {
+        if (password != retypePassword) {
+            $("#passwordValidation").html("Password does to match! Please retype password!").css({
+                "color": "red",
+                "font-size": "18px"
+            });
+        }
+    }
 
-}
-
-function userNameAvailable() {
-
-}
-
-function validateEqualPassword() {
-
-}
-
-// function getZipCodeFromApi() { // ajax call here for Zipcode 
-//     $.ajax({
-//         type: "GET",
-//         url: "https://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php?zip=93955",
-//         dataType: "json",
-//         data: {
-//             // "zip": $("#zip").val()
-//         },
-//         success: function(data) {
-//             console.log(data);
-//             $('.city').html(data.city);
-
-//         }
-//     });
-// }
-
+});

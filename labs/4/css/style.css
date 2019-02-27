@@ -48,6 +48,9 @@ input[type="password"] {
 label, h1, legend{
     color: black;
 }
+.update{
+    margin-top:10px;
+}
 .images{
     margin-top:12%;
     width:550px;
@@ -63,6 +66,18 @@ fieldset{
 .undertext{
     font-size: 32px;
     margin-left: 35px;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    font-weight: bolder;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
 }
 
 @media screen and (max-width: 900px) {
