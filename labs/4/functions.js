@@ -2,14 +2,14 @@
 /* global $ */
 
 $(document).ready(function() {
-    $("#state").keydown(function(){
-       addListOfCounties(); 
+    $("#state").keydown(function() {
+        addListOfCounties();
     });
-    $("#state").focusout(function(){
-        addListOfCounties(); 
+    $("#state").focusout(function() {
+        addListOfCounties();
     });
-    $("#zip").focusout(function(){
-        updateFromZipCode(); 
+    $("#zip").focusout(function() {
+        updateFromZipCode();
     });
     $(".btn").on("click", function() {
         checkIfUserNameIsAvailable();
@@ -17,6 +17,7 @@ $(document).ready(function() {
 
     });
 
+ 
     function updateFromZipCode() {
         var zipValue = $('#zip').val();
         if (zipValue == "" || zipValue.length < 5) {

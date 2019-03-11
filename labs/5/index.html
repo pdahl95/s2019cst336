@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AJAX: Sign Up Page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body id="dummybodyid" style="background-image: url(" img/light.jpg ");">
+
+    <div class="content">
+        <div class="row">
+            <div class="column">
+                <h1 class="titletext"> WELCOME </h1>
+                <p class="undertext">- Let's sign up</p>
+                <img class="images" src="img/form.jpg"></img>
+            </div>
+            <div class="column">
+                <form>
+                    <fieldset>
+                        <legend>Sign Up</legend>
+                        <div><label>First Name</label></div>
+                        <input type="text" placeholder="Enter your first name">
+
+                        <div><label>Last Name</label></div>
+                        <input type="text" placeholder="Enter your last name">
+
+                        <div><label>Email</label></div>
+                        <input type="text" placeholder="Enter your e-mail adress">
+
+                        <div><label>Phone Number</label></div>
+                        <input type="text" placeholder="Enter your phone number">
+
+                        <div><label>Zip Code</label></div>
+                        <input id="zip" type="text" placeholder="Enter Zip Code"><span id="errorZip"> </span>
+
+                        <div><label>City: </label>
+                            <span class="city"> </span>
+                        </div>
+
+                        <div class="update"><label>Latitude: </label>
+                            <span id="lati"></span></div>
+
+                        <div class="update"><label>Longitude: </label>
+                            <span id="longi"> </span>
+                        </div>
+
+                        <div class="update"><label>State</label></div>
+                        <input id="state" type="text" placeholder="Enter state">
+
+                        <div><label>Select a County</label>
+                            <select id="selectList"></select>
+                            <br><br>
+                        </div>
+
+                        <div><label>Desired Username</label></div>
+                        <input id="userName" type="text" name="usernamecheck" placeholder="Enter username"><span id="message"></span><br>
+                        <span id="errorWithPassword"></span>
+
+                        <div><label>Password</label></div>
+                        <input id="passWord" name="passwordcheck"type="password" placeholder="********">
+                        <input id="checkToggle" type="checkbox"> Show Password
+
+                        <div><label>Type Password Again</label></div>
+                        <span id="passwordValidation"> </span>
+                        <input id="retypePassword" type="password" placeholder="********">
+                        <div>
+                            <input class="btn" type="button" value="SIGN UP">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
+</body>
+
+</html>
