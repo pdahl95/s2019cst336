@@ -2,6 +2,7 @@
 
 /*global $*/
 $(document).ready(function() {
+    // Function call to fill up the dropdown menu 
     $.ajax({
         type: "GET",
         url: "api/getCategories.php",
@@ -31,6 +32,7 @@ $(document).ready(function() {
                 data.forEach(function(key) {
                     $("#results").append("<a href='#' class='historyLink' id='" + key['productId'] + "'>History</a> ");
                     $("#results").append(key['productName'] + " " + key['productDescription'] + " $" + key['price'] + "<br>");
+                    // $("#results").append(key.productName + " " + key.productDescription + " $"+ key.productPrice + "</br>");
                 });
             }
         });
@@ -38,11 +40,14 @@ $(document).ready(function() {
 
     $(document).on("click", '.historyLink', function() {
             $('#purchaseHistoryModal').modal("show");
+            
             $.ajax({
                     type: "GET",
                     url: "api/getPurchaseHistory.php",
                     dataType: "json",
-                    data: { "productId": $(this).attr("id") },
+                    data: { 
+                        "productId": $(this).attr("id") 
+                    },
                     success: function(data, status) {
                         if (data.length != 0) {
                             $("#history").html("");
@@ -56,6 +61,7 @@ $(document).ready(function() {
                             });
                         }else {
                             $("#history").append("No purchase hisotry for this item.");
+                            // $("#history").html("No purchase hisotry for this item.");
                         }
                 }
             });

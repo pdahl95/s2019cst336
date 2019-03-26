@@ -1,24 +1,35 @@
 #content {
     text-align: center;
+    margin:-16px;
 }
 
 h1 {
-    background-color: lightgray;
+    background-color: #95C8D8;
+    color: white;
+    font-weight: bolder;
     width: 100%;
     padding: 60px;
     margin: -8px;
-    font-size: 50px;
+    margin-left: 16px;
+    margin-right: -16px;
+    font-size: 60px;
+    font-family: "Courier New", Courier, monospace
 }
 
 .formdiv {
     text-align: center;
+}
+input[type="text"]
+{
+    font-size:16px;
+    border-radius: 5px;
 }
 
 form {
     margin: 12px;
     padding-top: 25px;
     font-size: 22px;
-    line-height: 1.6;
+    line-height: 2;
     display: inline-block;
     text-align: left;
 }
@@ -26,4 +37,16 @@ form {
     text-align: center;
     line-height: 1.6;
     font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+}
+#searchForm{
+    background-color: #95C8D8;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0px;
+    color: white;
 }
