@@ -1,0 +1,130 @@
+[26-Mar-2019 20:33:15 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:33:15 UTC] PHP Stack trace:
+[26-Mar-2019 20:33:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:33:15 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:33:15 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:33:15 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:33:15 UTC] PHP Stack trace:
+[26-Mar-2019 20:33:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:33:15 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:33:15 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:34:29 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:34:29 UTC] PHP Stack trace:
+[26-Mar-2019 20:34:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:34:29 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:34:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:34:29 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:34:29 UTC] PHP Stack trace:
+[26-Mar-2019 20:34:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:34:29 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:34:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:37:52 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:37:52 UTC] PHP Stack trace:
+[26-Mar-2019 20:37:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:37:52 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:37:52 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:37:52 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:37:52 UTC] PHP Stack trace:
+[26-Mar-2019 20:37:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:37:52 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:37:52 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:37:56 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:37:56 UTC] PHP Stack trace:
+[26-Mar-2019 20:37:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:37:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:37:56 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:37:56 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:37:56 UTC] PHP Stack trace:
+[26-Mar-2019 20:37:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:37:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:37:56 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:37:58 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:37:58 UTC] PHP Stack trace:
+[26-Mar-2019 20:37:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:37:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:37:58 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:37:58 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:37:58 UTC] PHP Stack trace:
+[26-Mar-2019 20:37:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:37:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:37:58 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:38:46 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:38:46 UTC] PHP Stack trace:
+[26-Mar-2019 20:38:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:38:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:38:46 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:38:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:38:46 UTC] PHP Stack trace:
+[26-Mar-2019 20:38:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:38:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:38:46 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:40:38 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:40:38 UTC] PHP Stack trace:
+[26-Mar-2019 20:40:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:40:38 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:40:38 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:40:38 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:40:38 UTC] PHP Stack trace:
+[26-Mar-2019 20:40:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:40:38 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:40:38 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:40:40 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:40:40 UTC] PHP Stack trace:
+[26-Mar-2019 20:40:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:40:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:40:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:40:40 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:40:40 UTC] PHP Stack trace:
+[26-Mar-2019 20:40:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:40:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:40:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:45:46 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:45:46 UTC] PHP Stack trace:
+[26-Mar-2019 20:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:45:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:45:46 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:45:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:45:46 UTC] PHP Stack trace:
+[26-Mar-2019 20:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:45:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:45:46 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:50:58 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpmyadmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpmyadmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:50:58 UTC] PHP Stack trace:
+[26-Mar-2019 20:50:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpmyadmin/index.php:0
+[26-Mar-2019 20:50:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpmyadmin/index.php:27
+[26-Mar-2019 20:50:58 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpmyadmin/libraries/common.inc.php:91
+[26-Mar-2019 20:50:58 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpmyadmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpmyadmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:50:58 UTC] PHP Stack trace:
+[26-Mar-2019 20:50:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpmyadmin/index.php:0
+[26-Mar-2019 20:50:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpmyadmin/index.php:27
+[26-Mar-2019 20:50:58 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpmyadmin/libraries/common.inc.php:91
+[26-Mar-2019 20:51:22 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:51:22 UTC] PHP Stack trace:
+[26-Mar-2019 20:51:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:51:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:51:22 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 20:51:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 20:51:22 UTC] PHP Stack trace:
+[26-Mar-2019 20:51:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 20:51:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 20:51:22 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 21:08:17 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 21:08:17 UTC] PHP Stack trace:
+[26-Mar-2019 21:08:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 21:08:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 21:08:17 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 21:08:17 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 21:08:17 UTC] PHP Stack trace:
+[26-Mar-2019 21:08:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 21:08:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 21:08:17 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 21:09:32 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 21:09:32 UTC] PHP Stack trace:
+[26-Mar-2019 21:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 21:09:32 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 21:09:32 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[26-Mar-2019 21:09:32 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/cst336/phpMyAdmin/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/phpMyAdmin/vendor/autoload.php on line 5
+[26-Mar-2019 21:09:32 UTC] PHP Stack trace:
+[26-Mar-2019 21:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
+[26-Mar-2019 21:09:32 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
+[26-Mar-2019 21:09:32 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
