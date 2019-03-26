@@ -1,0 +1,29 @@
+#content {
+    text-align: center;
+}
+
+h1 {
+    background-color: lightgray;
+    width: 100%;
+    padding: 60px;
+    margin: -8px;
+    font-size: 50px;
+}
+
+.formdiv {
+    text-align: center;
+}
+
+form {
+    margin: 12px;
+    padding-top: 25px;
+    font-size: 22px;
+    line-height: 1.6;
+    display: inline-block;
+    text-align: left;
+}
+#results{
+    text-align: center;
+    line-height: 1.6;
+    font-size: 18px;
+}
