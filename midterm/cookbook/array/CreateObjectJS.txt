@@ -1,0 +1,11 @@
+Create an Object in JavaScript
+Make an object that stores a list of possible next pages, making sure to wrap the array in a simple object.
+
+var nextData = {
+    "pages" : []
+}
+
+When making a "valid JSON" object, use quotations around the property names
+
+When would I use this?
+When you want to store data you are pulling from somewhere or letting the user build up and make in your page.

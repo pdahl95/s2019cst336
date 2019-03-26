@@ -1,0 +1,39 @@
+AJAX GET with jQuery
+
+Use jQuery's .ajax() function to GET JSON data from the 
+url "https://www.showdeolabs.com/data/csumb/jahenderson/kahoot-pretest.json", 
+then display that data in the console if it is successful. 
+Show an error message if the call is not successful.
+
+// Make a global variable
+var thingData;
+
+$.ajax({
+    type: "GET",
+    url: "https://www.showdeolabs.com/data/csumb/jahenderson/kahoot-pretest.json",
+    dataType: "json",
+    success: function(data, status) {
+      thingData = data;
+      console.log("Got data", data);
+    },
+    error: function(err) {
+      console.log("Didn't get data", err);
+    }
+ });
+ 
+This should return data that looks like this:
+
+{
+  "things": []
+}
+
+Of particular note is the thingData variable. 
+This is a global variable, which means that all my JavaScript can see it, 
+and which also means that I have to be careful not to name something else the same thing. 
+This will be useful in the next question, where I want to use thingData.
+
+When would I use this?
+When I want to get data from the server to show the user. 
+I would make a global variable like thingData when I want every line of JavaScript to see it.
+
+Note: Global variables can be seen by ALL JavaScript below the declaration, so be careful in your naming.

@@ -1,0 +1,11 @@
+COUNT, GROUP BY
+Return the count of feedback rows for each article, and group it by the type of feedback given, 
+returning the name of the feedback type along with the count.
+
+SELECT COUNT(*), ft.name
+FROM  feedback f JOIN
+      feedback_type ft ON f.type_id = ft.id
+GROUP BY ft.name
+
+When would I use this?
+To get information from 2 or more tables, even when there may not be information in one of the tables that is related.

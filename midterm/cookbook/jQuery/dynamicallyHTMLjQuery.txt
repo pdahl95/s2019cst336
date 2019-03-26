@@ -1,0 +1,31 @@
+Dynamically Creating HTML with jQuery
+Using the object below, inside a function create HTML dynamically using jQuery that displays 
+the information in an intuitive way. 
+The function should accept data as a parameter, 
+but should have a different name. Run this function inside the page you created.
+
+var data = {
+  title: "Preparing for the Kahoot Project",
+  image: {
+    alt: "Kahoot logo"
+    src: "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Kahoot_Logo.svg/1280px-Kahoot_Logo.svg.png"
+  }
+  author: "[Your Name Here]"
+}
+
+function createHTML(data){
+    $('body').append(
+        $('<div>').append("<h3>").html(data.title)
+    ).append(
+        $("<span>")
+            .attr("class", "author")
+            .html(data.author)
+    ).append(
+        $("<img>")
+            .attr("src", data.image.src)
+            .attr("alt", data.image.alt)
+    )
+}
+
+When would I use this?
+When I want to use show data in the page that I retrieved using AJAX.

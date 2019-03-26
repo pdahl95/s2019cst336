@@ -1,0 +1,29 @@
+AJAX POST with jQuery
+Take the object you retrieved in the previous step, then add a property to it. 
+Use jQuery's .ajax() function to POST the JSON object data back to the 
+url "https://www.showdeolabs.com/data/csumb/jahenderson/kahoot-pretest.json", 
+then display either a success message or error message depending on the results.
+
+// thingData is from get we did in last step, so doesn't need to be initialized
+thingData.title = "We have no things!";
+
+$.ajax({
+    type: "POST",
+    url: "https://www.showdeolabs.com/data/csumb/jahenderson/kahoot-pretest.json",
+    dataType: "json",
+    contentType: "application/json",
+    data: JSON.stringify(thingData),
+    success: function(data, status) {
+       console.log("Got data", data);
+    },
+    error: function(err) {
+      console.log("Didn't get data", err);
+    }
+ });
+ 
+ Note the use of JSON.stringify() on line 15. This converts the data I am posting to a string. 
+ That is fine--remember HTTP just shuttles around characters anyway--because I am also sending 
+ the contentType on line 14, so the server will know to convert back to a JSON object.
+ 
+ When would I use this?
+When I want to send data to a server so that I can retrieve it later.

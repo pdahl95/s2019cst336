@@ -1,0 +1,10 @@
+Get Element from the Array
+Get one of the pages for use in the next button or key press.
+
+ANSWER
+var secondPage = nextData.pages[1];
+
+You can also loop through the array of pages, of course
+
+When would I use this?
+When I want to use or display the data being maintained in the app page.

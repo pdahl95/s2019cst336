@@ -1,0 +1,21 @@
+Push Object onto Array
+Push a few page objects onto the array created:
+
+var nextData = {
+    "pages" : []
+}
+
+nextData.pages.push({
+  "url": "https://www.google.com"
+})
+
+nextData.pages.push({
+  "url": "https://www.facebook.com"
+})
+
+nextData.pages.push({
+  "url": "https://www.netflix.com"
+})
+
+When would I use this?
+When I want to add data into the object a user can modify in my app pages.

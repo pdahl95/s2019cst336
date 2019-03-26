@@ -1,0 +1,61 @@
+<!--Class CSS Selector and Bind Event-->
+
+<!--Add a couple of buttons to your page, sticking one to the top, and one to the bottom. -->
+<!--Add a class "next" on both the buttons. Then create a new page that just has the text "I am ready for the exam!" on it.-->
+<!--Then, use jQuery to bind the onclick event to a function that navigates the browser to the new page you created.-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+        .top next{
+          position: fixed;
+          top: 0;
+          right: 0;
+        }
+
+        .bottom next {
+          position: fixed;
+          bottom: 0;
+          right: 0;
+        }
+        .div1{
+            height: 500px;
+        }
+        </style>
+    </head>
+    <body>
+      <button class="top next">Next</button>
+      <div class="div1"></div>
+      <button class="bottom next">Next</button>
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+      </script>
+      <script>
+        $(function() {
+          $(".next").on("click", function(e) {
+            window.location.href = "next.html";
+          });
+        });
+      </script>
+    </body>
+</html>
+
+<!--When would I use this?-->
+<!--When I want to react to user interaction, such as clicking, scrolling, mousing over, keys being pressed, etc. -->
+<!--I find the element with which I want the user to interact, -->
+<!--and then "bind" or assign a function that will respond to the event.-->
+
+<!--Window Location-->
+<!--The window.location object can be written without the window prefix.-->
+
+<!--Some examples:-->
+
+<!--window.location.href returns the href (URL) of the current page-->
+<!--window.location.hostname returns the domain name of the web host-->
+<!--window.location.pathname returns the path and filename of the current page-->
+<!--window.location.protocol returns the web protocol used (http: or https:)-->
+<!--window.location.assign loads a new document-->

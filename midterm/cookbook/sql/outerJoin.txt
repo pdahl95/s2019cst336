@@ -1,0 +1,10 @@
+OUTER JOIN
+Return all articles, even if they do not have authors (are anonymous), 
+but if the author is known, provide that information
+
+SELECT u.name AS author_name, a.title, a.text, a.publish_date
+FROM  user u RIGHT OUTER JOIN
+      article a ON u.id = a.author_user_id
+      
+When would I use this?
+To get information from 2 or more tables, even when there may not be information in one of the tables that is related.      

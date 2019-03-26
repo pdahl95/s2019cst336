@@ -1,0 +1,10 @@
+$(document).ready(function(e) {
+
+});
+
+
+When would I use this?
+When I need the elements to be there to do something, search for an element on the page. 
+For example, any time I would use jQuery events I need the things that are responding to the event, e.g. a button, 
+to be guaranteed to be on the page. If I want that guarantee, I make sure the code is inside document.onready event code.
+

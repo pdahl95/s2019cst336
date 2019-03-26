@@ -1,0 +1,12 @@
+INNER JOIN
+Return all the articles for a user, returning the article title, text, published date and author name, 
+but only for articles in 2018.
+
+SELECT u.name AS author_name, a.title, a.text, a.publish_date
+FROM  user u INNER JOIN
+      article a ON u.id = a.author_user_id
+WHERE a.publish_date >= '1/1/2018'
+AND   a.publish_date <= '12/31/2018'
+
+When would I use this?
+To get information from 2 or more tables, and only when there is data in both tables (ignoring when there isn't).

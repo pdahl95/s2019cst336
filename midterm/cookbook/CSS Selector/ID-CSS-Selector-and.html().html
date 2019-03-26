@@ -1,0 +1,30 @@
+<!--ID CSS Selector and .html(): -->
+
+<!--Make an HTML document that has a <div> with the id attribute of content. -->
+<!--Use jQuery to find the element then use the .html() function to set the inner HTML to "found it!", but make the "it" bold.-->
+
+<!--<!DOCTYPE html>-->
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+      <div id="content">
+      </div>
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+      </script>
+      <script>
+        $(function() {
+          $("#content").html("found it!").css('font-weight', 'bold');
+        });
+      </script>
+    </body>
+</html>
+
+<!--When would I use this?-->
+<!--When I want to find some HTML element and dynamically populate the HTML. -->
+<!--For example, if I made an AJAX call and wanted to show the message the server returned to me,-->
+<!--I would use jQuery to find the div then put the message inside it using .html()-->

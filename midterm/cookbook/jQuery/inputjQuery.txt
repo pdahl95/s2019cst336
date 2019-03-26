@@ -1,0 +1,23 @@
+Using <input> with jQuery
+
+Add a form <input> element to the page that allows the user to enter in the 
+URL of the "next" page to which the buttons and N key are bound.
+
+ANSWER
+<input id="url" name="url" value=""/>
+
+and for the JavaScript, make a function to change the location, 
+then call that wherever window.location.href = "next.html"; was found.
+
+function goToNext() {
+  var nextUrl = $('#url').val();
+  window.location.href = nextUrl || "next.html";
+}
+
+* The || works to provide a default. Line 3 reads, "Set 
+the window location reference to the location found in the variable nextUrl 
+and if there is nothing in nextUrl use "next.html"."
+
+When would I use this?
+When I want to get a user to provide me information 
+that I can either use in the page right then, or send to the server with an AJAX POST.
