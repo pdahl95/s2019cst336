@@ -9,11 +9,30 @@ $(document).ready(function() {
         dataType: "json",
         success: function(data, status) {
             data.forEach(function(key) {
-                $("#categories").append("<option value=" + key["catId"] + ">" + key["catName"] + "</option>");
+                $("#categories").append("<option value=" + key["catID"] + ">" + key["catName"] + "</option>");
             });
         }
     });
 
+    var categories1 = {};
+    $.ajax({
+        type: "GET",
+        url: "api/getProducts.php",
+        dataType: "json",
+        success: function(data, status) {
+            //alert(data[0].productName);
+            data.forEach(function(product) {
+                $("#products").append("<div class='row'>" +
+                    "<div class='col1'>" + product.productName + "</div>" +
+                    "<div class='col2'>" + "$" + product.productPrice + "</div>" +
+                    "</div>");
+            });
+        },
+        complete: function(data, status) { //optional, used for debugging purposes
+            //alert(status);
+        }
+
+    }); //ajax
 
     $("#searchForm").on("click", function() {
         $.ajax({
@@ -21,19 +40,22 @@ $(document).ready(function() {
             url: "api/getSearchResults.php",
             dataType: "json",
             data: {
-                "product": $("[name=product]").val(),
-                "category": $("select[name=category]").val(),
-                "priceFrom": $("[name=priceFrom]").val(),
-                "priceTo": $("[name=priceTo]").val(),
-                "orderBy": $("[name=orderBy]:checked").val(),
+                "product": $("[name='product']").val(),
+                "category": $("[name='category']").val(),
+                "priceFrom": $("[name='priceFrom']").val(),
+                "priceTo": $("[name='priceTo']").val(),
+                "orderBy": $("[name='orderBy']:checked").val(),
             },
             success: function(data, status) {
-                console.log($(this).children("option:selected").val());
+                // console.log($(this).children("option:selected").val());
                 $("#results").html("<h3> Products Found: </h3>");
                 data.forEach(function(key) {
+                    categories1[key["productId"]] = key;
                     $("#results").append("<a href='#' class='historyLink' id='" + key['productId'] + "'>History</a> ");
                     $("#results").append(key['productName'] + " " + key['productDescription'] + " $" + key['price'] + "<br>");
                 });
+                var id = $("#categories option:selected").val();
+                console.log("test" + id);
             }
         });
     });
@@ -68,23 +90,6 @@ $(document).ready(function() {
         });
     });
 
-    $.ajax({
-        type: "GET",
-        url: "api/getProducts.php",
-        dataType: "json",
-        success: function(data, status) {
-            //alert(data[0].productName);
-            data.forEach(function(product) {
-                $("#products").append("<div class='row'>" +
-                    "<div class='col1'>" + product.productName + "</div>" +
-                    "<div class='col2'>" + "$" + product.productPrice + "</div>" +
-                    "</div>");
-            });
-        },
-        complete: function(data, status) { //optional, used for debugging purposes
-            //alert(status);
-        }
 
-    }); //ajax
 
 });
