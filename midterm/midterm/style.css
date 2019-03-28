@@ -1,0 +1,67 @@
+/*match style*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 4px;
+  height: 100%;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#navigation {
+  text-align: center;
+}
+
+#title {
+  text-align: center;
+  padding: 40px;
+  font-size: 52px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons {
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+  left: 50%;
+  /*margin-left: -37.5%;*/
+
+}
+#tableID{
+   margin: 0 auto;
+   width:75%;
+}
+th, tr{
+  padding: 20px;
+}
