@@ -380,3 +380,18 @@ Stack trace:
 [15-Apr-2019 18:16:41 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
 [15-Apr-2019 18:16:41 UTC] PHP Stack trace:
 [15-Apr-2019 18:16:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[15-Apr-2019 18:20:33 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[15-Apr-2019 18:20:33 UTC] PHP Stack trace:
+[15-Apr-2019 18:20:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[15-Apr-2019 18:24:09 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[15-Apr-2019 18:24:09 UTC] PHP Stack trace:
+[15-Apr-2019 18:24:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[15-Apr-2019 19:05:01 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[15-Apr-2019 19:05:01 UTC] PHP Stack trace:
+[15-Apr-2019 19:05:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[15-Apr-2019 19:05:55 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[15-Apr-2019 19:05:55 UTC] PHP Stack trace:
+[15-Apr-2019 19:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[15-Apr-2019 19:06:17 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[15-Apr-2019 19:06:17 UTC] PHP Stack trace:
+[15-Apr-2019 19:06:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0

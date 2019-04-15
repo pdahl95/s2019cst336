@@ -1,6 +1,6 @@
 <?php
 
-function getDatabaseConnection($dbname = 'ottermart'){
+function getDatabaseConnection($dbname = 'dashboard'){
     // Heroku connection string:
     //mysql://uvrmbwpgnycuyc1s:smg0ff2qluhi96yz@er7lx9km02rjyf3n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/uvwpgd9q61wn8fld
     

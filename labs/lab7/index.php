@@ -3,6 +3,8 @@
     
     // include '../dbConnection.php';
     // $conn = getDatabaseConnection("ottermart");
+    include '../dbConnectionAdmin.php';
+    $conn = getDatabaseConnection("dashboard");
 
     if (!isset($_SESSION['email'])){
       header("Location: login.html");
