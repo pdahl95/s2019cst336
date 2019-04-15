@@ -6,7 +6,7 @@ function getDatabaseConnection($dbname = 'ottermart'){
     
     // C9 connection string
     $host = 'localhost';
-    $username = 'peerni95';
+    $username = 'root';
     $password = '';
     
       if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
