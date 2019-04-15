@@ -65,8 +65,8 @@
         
         // TODO: do stuff to get the $results which is an associative array
         $host = "127.0.0.1";
-        $dbname = "dashboard";
-        $username = "jahenderson";
+        $dbname = "ottermart";
+        $username = "peerni95";
         $password = "";
     
         // Get Data from DB
