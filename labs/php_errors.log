@@ -1,0 +1,337 @@
+[07-Apr-2019 02:20:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 02:20:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 02:20:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 02:20:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 02:20:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 02:23:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jahenderson'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/labs/7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(34): PDO->__construct('mysql:host=127....', 'jahenderson', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 34
+[07-Apr-2019 02:33:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 02:37:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:24:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:47:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:47:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:47:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[07-Apr-2019 20:47:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dashboard.user' doesn't exist' in /home/ubuntu/workspace/cst336/labs/7/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/7/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/7/login.php on line 41
+[09-Apr-2019 00:18:56 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:56 UTC] PHP Stack trace:
+[09-Apr-2019 00:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:18:56 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:18:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:57 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:57 UTC] PHP Stack trace:
+[09-Apr-2019 00:18:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:18:57 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:18:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:58 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:58 UTC] PHP Stack trace:
+[09-Apr-2019 00:18:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:18:58 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:18:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:58 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:58 UTC] PHP Stack trace:
+[09-Apr-2019 00:18:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:18:58 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:18:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:58 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:58 UTC] PHP Stack trace:
+[09-Apr-2019 00:18:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:18:58 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:18:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:59 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:59 UTC] PHP Stack trace:
+[09-Apr-2019 00:18:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:18:59 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:18:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:59 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:59 UTC] PHP Stack trace:
+[09-Apr-2019 00:18:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:18:59 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:18:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:59 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:18:59 UTC] PHP Stack trace:
+[09-Apr-2019 00:18:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:18:59 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:18:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:22:14 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:22:14 UTC] PHP Stack trace:
+[09-Apr-2019 00:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:22:14 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:22:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:22:16 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:22:16 UTC] PHP Stack trace:
+[09-Apr-2019 00:22:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:22:16 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:22:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:22:16 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:22:16 UTC] PHP Stack trace:
+[09-Apr-2019 00:22:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:22:16 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:22:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:22:16 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:22:16 UTC] PHP Stack trace:
+[09-Apr-2019 00:22:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:22:16 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:22:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:22:42 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:22:42 UTC] PHP Stack trace:
+[09-Apr-2019 00:22:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:22:42 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:22:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:24:50 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:24:50 UTC] PHP Stack trace:
+[09-Apr-2019 00:24:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:24:50 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:24:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:27:47 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:27:47 UTC] PHP Stack trace:
+[09-Apr-2019 00:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:27:47 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:27:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:27:51 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[09-Apr-2019 00:27:51 UTC] PHP Stack trace:
+[09-Apr-2019 00:27:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/login.php:0
+[09-Apr-2019 00:27:51 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+[09-Apr-2019 00:27:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab7/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/login.php(34): PDO->__construct('mysql:host=loca...', 'peerni95', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/login.php on line 34
+[14-Apr-2019 18:43:35 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[14-Apr-2019 18:43:35 UTC] PHP Stack trace:
+[14-Apr-2019 18:43:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[14-Apr-2019 18:45:39 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[14-Apr-2019 18:45:39 UTC] PHP Stack trace:
+[14-Apr-2019 18:45:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[14-Apr-2019 18:54:37 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[14-Apr-2019 18:54:37 UTC] PHP Stack trace:
+[14-Apr-2019 18:54:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[14-Apr-2019 18:54:44 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[14-Apr-2019 18:54:44 UTC] PHP Stack trace:
+[14-Apr-2019 18:54:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[14-Apr-2019 18:55:14 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[14-Apr-2019 18:55:14 UTC] PHP Stack trace:
+[14-Apr-2019 18:55:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[14-Apr-2019 18:56:07 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[14-Apr-2019 18:56:07 UTC] PHP Stack trace:
+[14-Apr-2019 18:56:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[14-Apr-2019 18:58:09 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[14-Apr-2019 18:58:09 UTC] PHP Stack trace:
+[14-Apr-2019 18:58:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[14-Apr-2019 18:58:28 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[14-Apr-2019 18:58:28 UTC] PHP Stack trace:
+[14-Apr-2019 18:58:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[14-Apr-2019 19:02:48 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[14-Apr-2019 19:02:48 UTC] PHP Stack trace:
+[14-Apr-2019 19:02:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[15-Apr-2019 16:54:40 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[15-Apr-2019 16:54:40 UTC] PHP Stack trace:
+[15-Apr-2019 16:54:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[15-Apr-2019 17:03:13 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[15-Apr-2019 17:03:13 UTC] PHP Stack trace:
+[15-Apr-2019 17:03:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
