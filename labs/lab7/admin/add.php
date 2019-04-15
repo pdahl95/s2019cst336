@@ -1,15 +1,9 @@
 <?php
 
     session_start();
-    // include '../dbConnection.php';
-    // $conn = getDatabaseConnection("ottermart");
-
     if (!isset($_SESSION['email'])){
       header("Location: login.html");
     }
-    
-    include '../dbConnection.php';
-    $conn = getDatabaseConnection("ottermart");
     
     $prod = $_GET['product'];
     $cat = $_GET['categories'];
@@ -104,10 +98,6 @@
             ajax.open('POST','add.php',true);
             ajax.send();
         });
-            
-        
-        
-        
             
         </script>
     </body>

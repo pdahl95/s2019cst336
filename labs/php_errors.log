@@ -395,3 +395,45 @@ Stack trace:
 [15-Apr-2019 19:06:17 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
 [15-Apr-2019 19:06:17 UTC] PHP Stack trace:
 [15-Apr-2019 19:06:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[15-Apr-2019 19:41:43 UTC] PHP Warning:  include(../dbConnectionAdmin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 6
+[15-Apr-2019 19:41:43 UTC] PHP Stack trace:
+[15-Apr-2019 19:41:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[15-Apr-2019 19:41:43 UTC] PHP Warning:  include(): Failed opening '../dbConnectionAdmin.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 6
+[15-Apr-2019 19:41:43 UTC] PHP Stack trace:
+[15-Apr-2019 19:41:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[15-Apr-2019 19:41:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 7
+[15-Apr-2019 19:41:43 UTC] PHP Stack trace:
+[15-Apr-2019 19:41:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[15-Apr-2019 19:41:51 UTC] PHP Warning:  include(../dbConnectionAdmin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 6
+[15-Apr-2019 19:41:51 UTC] PHP Stack trace:
+[15-Apr-2019 19:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[15-Apr-2019 19:41:51 UTC] PHP Warning:  include(): Failed opening '../dbConnectionAdmin.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 6
+[15-Apr-2019 19:41:51 UTC] PHP Stack trace:
+[15-Apr-2019 19:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[15-Apr-2019 19:41:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 7
+[15-Apr-2019 19:41:51 UTC] PHP Stack trace:
+[15-Apr-2019 19:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[15-Apr-2019 19:42:05 UTC] PHP Warning:  include(../dbConnectionAdmin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 6
+[15-Apr-2019 19:42:05 UTC] PHP Stack trace:
+[15-Apr-2019 19:42:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[15-Apr-2019 19:42:05 UTC] PHP Warning:  include(): Failed opening '../dbConnectionAdmin.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 6
+[15-Apr-2019 19:42:05 UTC] PHP Stack trace:
+[15-Apr-2019 19:42:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[15-Apr-2019 19:42:05 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 7
+[15-Apr-2019 19:42:05 UTC] PHP Stack trace:
+[15-Apr-2019 19:42:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[15-Apr-2019 20:09:13 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[15-Apr-2019 20:09:13 UTC] PHP Stack trace:
+[15-Apr-2019 20:09:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[15-Apr-2019 20:09:16 UTC] PHP Warning:  include(../dbConnectionAdmin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 6
+[15-Apr-2019 20:09:16 UTC] PHP Stack trace:
+[15-Apr-2019 20:09:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[15-Apr-2019 20:09:16 UTC] PHP Warning:  include(): Failed opening '../dbConnectionAdmin.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 6
+[15-Apr-2019 20:09:16 UTC] PHP Stack trace:
+[15-Apr-2019 20:09:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[15-Apr-2019 20:09:16 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 7
+[15-Apr-2019 20:09:16 UTC] PHP Stack trace:
+[15-Apr-2019 20:09:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[15-Apr-2019 20:16:47 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[15-Apr-2019 20:16:47 UTC] PHP Stack trace:
+[15-Apr-2019 20:16:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
