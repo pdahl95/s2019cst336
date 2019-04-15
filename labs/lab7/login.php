@@ -27,7 +27,7 @@
       // TODO: do stuff to get the $results which is an associative array
       $host = "localhost";
       $dbname = "ottermart";
-      $username = "peerni95";
+      $username = "root";
       $password = "";
   
       // Get Data from DB

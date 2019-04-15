@@ -440,3 +440,6 @@ Stack trace:
 [15-Apr-2019 20:18:40 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
 [15-Apr-2019 20:18:40 UTC] PHP Stack trace:
 [15-Apr-2019 20:18:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
+[15-Apr-2019 21:06:48 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/labs/lab7/logout.php on line 6
+[15-Apr-2019 21:06:48 UTC] PHP Stack trace:
+[15-Apr-2019 21:06:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/logout.php:0
