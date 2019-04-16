@@ -339,3 +339,18 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/labs/lab7/admin/delete.php(17): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab7/admin/delete.php on line 17
+[16-Apr-2019 06:23:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/admin/edit.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/admin/edit.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/admin/edit.php on line 17
+[16-Apr-2019 06:44:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ball NEW, price = 5 WHERE productId = 25' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/admin/edit.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/admin/edit.php(34): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/admin/edit.php on line 34
+[16-Apr-2019 06:47:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '4 Soccer Ball, price = 3.93 WHERE productId = 25' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/admin/edit.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/admin/edit.php(34): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/admin/edit.php on line 34

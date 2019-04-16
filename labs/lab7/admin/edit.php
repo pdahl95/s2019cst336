@@ -8,7 +8,36 @@
     
     include '../dbConnection.php';
     $conn = getDatabaseConnection("ottermart");
+    
+        if(isset($_POST['edit'])){
+            $prodID = $_POST['prodId'];
+            
+            $sql = "SELECT * FROM om_product WHERE productId = $prodID;";
+            $stmt = $conn->prepare($sql);
+            $stmt->execute();
+            $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            
+            echo json_encode($records);
+            exit(0);
+        }
+        
+        if(isset($_POST['update'])){
+            $prodID = $_POST['prodId'];
+            $prodName = $_POST['productName'];
+            $prodPrice = $_POST['productPrice'];
+            
+            //UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
+           
+            $sql = "UPDATE om_product SET productName = '$prodName', price = $prodPrice WHERE productId = $prodID;";
 
+            $stmt = $conn->prepare($sql);
+            $response = $stmt->execute();
+            
+            echo json_encode($response);
+            exit(0);
+        
+        }
+    
 
 ?>
 
@@ -54,9 +83,13 @@
             <div id="cont"> 
                 What product do you want to edit? <br> 
                 Please provide the Product ID below: <br> 
-                <input type="text" name="prodId"/> <br> 
+                <input id="ID" type="text" name="prodId"/> <br> 
                 
-                <button id="edit" class="btn btn-danger"> Edit Product </button>
+                <button id="findProd" class="btn btn-danger"> Find Product </button>
+                
+                <div id="resultProduct"> </div>
+                
+                <button id='updateRow' class='update' style="display: none;"> Update </button>
                 
                 
                 <br> <br>
@@ -83,9 +116,50 @@
                 window.location = "index.php";
             }); 
             
+            $("#findProd").on("click", function() {
+                   $.ajax({
+                   type: "POST", 
+                   url: "edit.php",
+                   dataType: "json",
+                   data: { 
+                    'edit': '', 
+                    "prodId": $("[name='prodId']").val(),
+                    },
+                   success: function(data,status){
+                       console.log(data);
+                       $("#resultProduct").html("Product" + "<br>");
+                       $("#resultProduct").append("Product Name:"+ "<input type='text' name='productName' value='"+ data[0]['productName'] +"'>" + "<br>");
+                       $("#resultProduct").append("Product Price:"+ "<input type='text' name='productPrice' value="+ data[0]['price'] +">" + "<br>");
+                       $("#updateRow").show();
+                       
+                   }, 
+                   error: function (){
+                        alert("Fail!");
+                    }
+                });
+            });
+            
      
             
-        
+        $("#updateRow").on("click", function() {
+           $.ajax({
+               type: "POST", 
+               url: "edit.php",
+               dataType: "json",
+               data: { 
+                'update': '', 
+                "prodId": $("[name='prodId']").val(), 
+                "productName": $("[name='productName']").val(),
+                "productPrice": $("[name='productPrice']").val(),
+                },
+               success: function(data,status){
+                   alert("Success!");
+               }, 
+               error: function (){
+                    alert("Fail!");
+                }
+           });
+        });
         
         
             
