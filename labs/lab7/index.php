@@ -54,7 +54,6 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal"> Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
             </div>
@@ -78,33 +77,11 @@
         <script>
         
         /* global $ */
-        
-        
-            var categories1 = {};
-            $.ajax({
-                type: "GET",
-                url: "api/getProducts.php",
-                dataType: "json",
-                success: function(data, status) {
-                    //alert(data[0].productName);
-                    data.forEach(function(product) {
-                        $("#products").append("<div class='row'>" +
-                            "<div class='col1'>" + product.productName + "</div>" +
-                            "<div class='col2'>" + "$" + product.productPrice + "</div>" +
-                            "</div>");
-                    });
-                },
-                complete: function(data, status) { //optional, used for debugging purposes
-                    //alert(status);
-                }
-        
-            }); //ajax
-    
     
         $.ajax({
             type: "GET",
             url: "api/getSearchResults.php",
-            dataType: "text",
+            dataType: "json",
             data: {
                 "product": $("[name='product']").val(),
                 "category": $("[name='category']").val(),
@@ -114,14 +91,14 @@
             },
             success: function(data, status) {
                 $("#results").html("<h3> Products Found: </h3>");
-                data.forEach(function(key) {
-                   console.log(categories1[key["productId"]] = key); 
-                    categories1[key["productId"]] = key;
+                // console.log(data);
+                for(var i in data) {
+                    var key = data[i];
                     $("#results").append("<a href='#' class='historyLink' id='" + key['productId'] + "'>History</a> ");
                     $("#results").append(key['productName'] + " " + key['productDescription'] + " $" + key['price'] + "<br>");
-                });
-                var id = $("#categories option:selected").val();
-                console.log("test" + id);
+
+                }
+  
             }
         });
             

@@ -1,19 +1,24 @@
 <?php
-
     session_start();
     if (!isset($_SESSION['email'])){
       header("Location: login.html");
     }
     
-    $prod = $_GET['product'];
-    $cat = $_GET['categories'];
-    $price = $_GET['price'];
+    include '../dbConnection.php';
+    $conn = getDatabaseConnection("ottermart");
     
-    if(isset($_POST['submit']))
-{
-     $SQL = "INSERT INTO om_product (productId, productName, productDescription, productImage, price, catId) VALUES ('', '$prod', '', '', ''$price, '')";
-     $result = mysql_query($SQL);
-}
+    if(isset($_POST['submit'])){
+        $prod = $_POST['product'];
+        $prodDesc = $_POST['prodDesc'];
+        $cat = $_POST['categories'];
+        $price = $_POST['price'];
+        $sql = "INSERT INTO om_product (productName, productDescription, price, catId) VALUES ('$prod', '$prodDesc', '$price', '$cat');";
+        $stmt = $conn->prepare($sql);
+        $response = $stmt->execute();
+        
+        echo json_encode($response);
+        exit(0);
+    }
     
     
 ?>
@@ -58,12 +63,14 @@
             
         <div class="formdiv">
             <form id="form">
-                Product ID: <input id="prodId" type="text" name="productID"/> <br> 
                 Product Name: <input id="prod" type="text" name="product"/> <br> 
                 Product Description: <input id="prodDesc" type="text" name="productDesc"/> <br> 
                 Product Image: <input id="prodImg" type="text" name="productImg"/> <br> 
                 Price: <input id="priceProd" type="text" name="price" size="7" /> <br>
-                Category ID: <input id="cat" type="text" name="categories"/> <br> 
+                Category: <select name="category" id="categories">
+                    <option value=""> Select One</option>
+                  
+                </select>
                 <br>
             </form>
             
@@ -77,7 +84,8 @@
             <button id="btn" class="btn btn-danger">Logout</button>
         </main>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
@@ -92,11 +100,41 @@
                 window.location = "index.php";
             }); 
             
+            $.ajax({
+                type: "GET",
+                url: "../api/getCategories.php",
+                dataType: "json",
+                success: function(data, status) {
+                    console.log(data);
+                    $.each(data, function(i) {
+                        var key = data[i];
+                        $("#categories").append("<option value=" + key["catID"] + ">" + key["catName"] + "</option>");
+                    });
+                }
+            });
+            
         $("#addBtntoDataBase").on("click", function(){
             // alert("test");
-            var ajax = new XMLHttpRequest();
-            ajax.open('POST','add.php',true);
-            ajax.send();
+            $.ajax({
+               type: "POST", 
+               url: "add.php",
+               dataType: "json",
+               data: { 
+                'submit': '', 
+                "product": $("[name='product']").val(),
+                "prodDesc": $("[name='productDesc']").val(),
+                "productImage" : $("[name='productImg']").val(),
+                "price": $("[name='price']").val(),
+                "category": $("[name='category']").val(),
+                
+                },
+               success: function(data,status){
+                   alert("Congratulations, you have succesfully added a product!");
+               }, 
+               error: function (){
+                    alert("Fail to add product!");
+                }
+            });
         });
             
         </script>

@@ -187,3 +187,140 @@ Stack trace:
 [15-Apr-2019 18:19:54 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/labs/lab7/dbConnection.php:3) in /home/ubuntu/workspace/cst336/labs/lab7/dbConnection.php on line 3
 [15-Apr-2019 18:19:54 UTC] PHP Stack trace:
 [15-Apr-2019 18:19:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 03:27:19 UTC] PHP Fatal error:  Call to undefined function encode_json() in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 8
+[16-Apr-2019 03:27:19 UTC] PHP Stack trace:
+[16-Apr-2019 03:27:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 03:59:46 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 13
+[16-Apr-2019 03:59:46 UTC] PHP Stack trace:
+[16-Apr-2019 03:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 03:59:46 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:13
+[16-Apr-2019 03:59:46 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 13
+[16-Apr-2019 03:59:46 UTC] PHP Stack trace:
+[16-Apr-2019 03:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 03:59:46 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:13
+[16-Apr-2019 04:01:35 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 13
+[16-Apr-2019 04:01:35 UTC] PHP Stack trace:
+[16-Apr-2019 04:01:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:01:35 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:13
+[16-Apr-2019 04:01:35 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 13
+[16-Apr-2019 04:01:35 UTC] PHP Stack trace:
+[16-Apr-2019 04:01:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:01:35 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:13
+[16-Apr-2019 04:01:35 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 13
+[16-Apr-2019 04:01:35 UTC] PHP Stack trace:
+[16-Apr-2019 04:01:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:01:35 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:13
+[16-Apr-2019 04:01:35 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 13
+[16-Apr-2019 04:01:35 UTC] PHP Stack trace:
+[16-Apr-2019 04:01:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:01:35 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:13
+[16-Apr-2019 04:04:09 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:04:09 UTC] PHP Stack trace:
+[16-Apr-2019 04:04:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:04:09 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:04:09 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:04:09 UTC] PHP Stack trace:
+[16-Apr-2019 04:04:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:04:09 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:04:57 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:04:57 UTC] PHP Stack trace:
+[16-Apr-2019 04:04:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:04:57 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:04:57 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:04:57 UTC] PHP Stack trace:
+[16-Apr-2019 04:04:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:04:57 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:05:01 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:05:01 UTC] PHP Stack trace:
+[16-Apr-2019 04:05:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:05:01 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:05:01 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:05:01 UTC] PHP Stack trace:
+[16-Apr-2019 04:05:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:05:01 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:05:01 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:05:01 UTC] PHP Stack trace:
+[16-Apr-2019 04:05:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:05:01 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:05:01 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:05:01 UTC] PHP Stack trace:
+[16-Apr-2019 04:05:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:05:01 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:05:01 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:05:01 UTC] PHP Stack trace:
+[16-Apr-2019 04:05:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:05:01 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:05:01 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:05:01 UTC] PHP Stack trace:
+[16-Apr-2019 04:05:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:05:01 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:05:01 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:05:01 UTC] PHP Stack trace:
+[16-Apr-2019 04:05:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:05:01 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:05:01 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:05:01 UTC] PHP Stack trace:
+[16-Apr-2019 04:05:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:05:01 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:06:29 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:06:29 UTC] PHP Stack trace:
+[16-Apr-2019 04:06:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:06:29 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:06:29 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:06:29 UTC] PHP Stack trace:
+[16-Apr-2019 04:06:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:06:29 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:08:20 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:08:20 UTC] PHP Stack trace:
+[16-Apr-2019 04:08:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:08:20 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:08:20 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:08:20 UTC] PHP Stack trace:
+[16-Apr-2019 04:08:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:08:20 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:10:37 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:10:37 UTC] PHP Stack trace:
+[16-Apr-2019 04:10:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:10:37 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:10:37 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:10:37 UTC] PHP Stack trace:
+[16-Apr-2019 04:10:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:10:37 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:14:02 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:14:02 UTC] PHP Stack trace:
+[16-Apr-2019 04:14:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:14:02 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:14:02 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 14
+[16-Apr-2019 04:14:02 UTC] PHP Stack trace:
+[16-Apr-2019 04:14:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:0
+[16-Apr-2019 04:14:02 UTC] PHP   2. mysql_query(*uninitialized*) /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:14
+[16-Apr-2019 04:18:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '666, '')' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php(16): PDO->exec('INSERT INTO om_...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 16
+[16-Apr-2019 04:20:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '666, '')' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php(16): PDO->exec('INSERT INTO om_...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 16
+[16-Apr-2019 04:21:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '666, '')' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php(16): PDO->exec('INSERT INTO om_...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 16
+[16-Apr-2019 04:22:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '666, '')' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php(16): PDO->exec('INSERT INTO om_...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 16
+[16-Apr-2019 04:26:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 17
+[16-Apr-2019 04:29:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/admin/add.php on line 17
