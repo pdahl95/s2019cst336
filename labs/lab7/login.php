@@ -25,14 +25,17 @@
       $jsonData = json_decode($rawJsonString, true);
 
       // TODO: do stuff to get the $results which is an associative array
-      $host = "localhost";
-      $dbname = "ottermart";
-      $username = "root";
-      $password = "";
+      // $host = "localhost";
+      // $dbname = "ottermart";
+      // $username = "root";
+      // $password = "";
   
-      // Get Data from DB
-      $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-      $dbConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
+      // // Get Data from DB
+      // $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+      // $dbConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
+      
+      include 'dbConnection.php';
+      $dbConn = getDatabaseConnection("ottermart");
 
       $sql = "SELECT * FROM user " .
              "WHERE email = :email ";
