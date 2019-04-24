@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+  /*border: 1px solid;*/
+}
+.column img {
+  padding: 10px;  
+}
+
+.row{
+  /*border: 1px solid;*/
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#title{
+  font-size: 55px;
+  background-color: #ADD8E6;
+  padding: 40px;
+  margin: -10px;
+}
+#content{
+  margin: 25px;
+  font-size: 22px;
+}
+#search{
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #ADD8E6;
+  font-weight: bold;
+}
+#inputSearch{
+  height: 30px;
+  font-size: 16px;
+}
