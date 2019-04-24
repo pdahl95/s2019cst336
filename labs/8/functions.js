@@ -4,8 +4,11 @@ $(document).ready(function() {
 
     var flag = false;
 
+    $("#viewFav").hide();
+
     // WHEN CLICKING THE SEARCH BUTTON
-    $("#search").on("click", function() {
+    $(".searchbtn").on("click", function() {
+        $("#viewFav").show();
         // function call to the API 
         $.ajax({
             type: "GET",
@@ -97,12 +100,13 @@ $(document).ready(function() {
 
                 });
 
+
                 $("#viewFav").mouseover(function() {
                     $("#viewFav").css({
-                        "color": "#ADD8E6",
+                        "color": "black",
                         "width": "180px",
                         "padding": "10px",
-                        "background-color": 'black',
+                        "background-color": '#ADD8E6',
                         "border-radius": '5px',
                         "font-height": "bold"
                     });
@@ -130,9 +134,10 @@ $(document).ready(function() {
                         success: function(data, status) {
                             console.log(data);
                             $("#results").html("<h3> Here are your favorite images: </h3>");
+                            $("#results").append("<h6> Click the link to see the image </h6>");
                             // data.each(function(key) {
                             for (var key in data) {
-                                $("#results").append("<a href='" + data[key]['img_url'] + "'> Image" +  "<br>");
+                                $("#results").append("<a href='" + data[key]['img_url'] + "'> Image" + "<br>");
                             }
                             // });
                             // alert("Success!");
