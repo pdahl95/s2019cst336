@@ -1,0 +1,5 @@
+[22-Apr-2019 23:26:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/ubuntu/workspace/examples/file-upload/ajax-post/uploadFile.php on line 26
+[22-Apr-2019 23:26:27 UTC] PHP Stack trace:
+[22-Apr-2019 23:26:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/examples/file-upload/ajax-post/uploadFile.php:0
+[22-Apr-2019 23:26:27 UTC] PHP   2. reArrayFiles() /home/ubuntu/workspace/examples/file-upload/ajax-post/uploadFile.php:5
+[22-Apr-2019 23:26:27 UTC] PHP   3. array_keys() /home/ubuntu/workspace/examples/file-upload/ajax-post/uploadFile.php:26

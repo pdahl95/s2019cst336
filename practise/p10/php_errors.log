@@ -1,0 +1,45 @@
+[29-Apr-2019 19:32:31 UTC] PHP Warning:  include(php/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 6
+[29-Apr-2019 19:32:31 UTC] PHP Stack trace:
+[29-Apr-2019 19:32:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php:0
+[29-Apr-2019 19:32:31 UTC] PHP Warning:  include(): Failed opening 'php/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 6
+[29-Apr-2019 19:32:31 UTC] PHP Stack trace:
+[29-Apr-2019 19:32:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php:0
+[29-Apr-2019 19:32:31 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 7
+[29-Apr-2019 19:32:31 UTC] PHP Stack trace:
+[29-Apr-2019 19:32:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php:0
+[29-Apr-2019 19:33:37 UTC] PHP Warning:  include(api/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 6
+[29-Apr-2019 19:33:37 UTC] PHP Stack trace:
+[29-Apr-2019 19:33:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php:0
+[29-Apr-2019 19:33:37 UTC] PHP Warning:  include(): Failed opening 'api/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 6
+[29-Apr-2019 19:33:37 UTC] PHP Stack trace:
+[29-Apr-2019 19:33:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php:0
+[29-Apr-2019 19:33:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 7
+[29-Apr-2019 19:33:37 UTC] PHP Stack trace:
+[29-Apr-2019 19:33:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php:0
+[29-Apr-2019 19:34:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quizLab.quizLab' doesn't exist' in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php(32): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 32
+[29-Apr-2019 19:40:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE NOT EXISTS email = 'pdahl@csumb.edu'' at line 1' in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php(34): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 34
+[29-Apr-2019 19:42:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE NOT EXISTS 
+            (SELECTE email FROM quiz WHERE email = 'pdahl@csum' at line 1' in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 35
+[29-Apr-2019 19:43:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE NOT EXISTS 
+            (SELECTE email FROM quiz WHERE email = 'pdahl@csum' at line 1' in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 35
+[29-Apr-2019 19:44:48 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 35
+[29-Apr-2019 19:45:18 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 35
+[29-Apr-2019 19:45:58 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 35
+[29-Apr-2019 19:46:32 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 35
+[29-Apr-2019 19:46:51 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 35
