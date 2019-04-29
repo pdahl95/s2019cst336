@@ -43,3 +43,8 @@ Stack trace:
 [29-Apr-2019 19:45:58 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 35
 [29-Apr-2019 19:46:32 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 35
 [29-Apr-2019 19:46:51 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 35
+[29-Apr-2019 19:50:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'pdahl@csumb.edu' for key 'PRIMARY'' in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php(34): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 34
