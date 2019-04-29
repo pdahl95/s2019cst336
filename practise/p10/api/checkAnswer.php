@@ -26,10 +26,10 @@
 //3. If record not found, insert a new record for that email
  if(isset($_GET['email'])){
         $email = $_GET['email'];
-        $score = $_GET['score'];
-        $taken = $_GET['taken'];
+        // $score = $_GET['score'];
+        // $taken = $_GET['taken'];
         
-        $sql = "INSERT INTO quiz (email, score, taken) VALUES ('$email','$score', '$taken');";
+        $sql = "INSERT INTO quiz (email, score, taken) VALUES ('$email','', '');";
         $stmt = $conn->prepare($sql);
         $response = $stmt->execute();
         
