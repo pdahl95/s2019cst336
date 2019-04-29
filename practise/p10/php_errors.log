@@ -48,3 +48,6 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php(34): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php on line 34
+[29-Apr-2019 19:54:26 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/practise/p10/dbConnection.php on line 3
+[29-Apr-2019 19:54:26 UTC] PHP Stack trace:
+[29-Apr-2019 19:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practise/p10/api/checkAnswer.php:0
