@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title> Project 5 - Media Event Dump </title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+			<h1>Hi and Welcome</h1>
+			<h3> Please upload and share the beautiful captured moments.</h3>
+			
+			<form method="POST" action="uploadFile.php" enctype="multipart/form-data">
+				Please add your email and caption of the image:
+				<input id="emailInput" id="email" type="text" name="email" placeholder="Email.." />
+				<input type="text" id="emailInput" id="caption" name="caption" placeholder="Caption.." /> Select file(s) to upload:
+				<input type="file" multiple name="fileName" id="image" />
+				<input id="btn" class="inputCSS" type="submit" name="uploadForm" value="Upload File" />
+			</form>
+		</header>
+
+		<!-- Main -->
+		<section id="main">
+			<!--<button id="test"> Click here to get Image </button>-->
+			<!--<div id="results"> </div>-->
+
+				<!-- Thumbnails -->
+				<section class="thumbnails">
+
+				</section>
+
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p>&copy; Pernille Dahl. CST 336 Internet Programming Course </p>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="functions.js"></script>
+
+</body>
+
+</html>

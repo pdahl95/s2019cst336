@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>AJAX POST File Upload</title>
+    <title>AJAX PUT File Upload</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -15,7 +15,7 @@
         <div class="col-md-3">
             <form>
                 <div style="display:none;">
-                    <input type="file" multiple name="fileName[]" />
+                    <input type="file" name="fileName" />
                 </div>
                 <div>
                     <button id="selectButton" type="button" class="btn btn-primary btn-xs">Pick File(s)</button>
@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div id="results">
-                
+
             </div>
         </div>
 
@@ -61,15 +61,35 @@
 
             // 3. Send files with ajax
             $('#uploadButton').click(function(e) {
+                // ONLY SENDING ONE FILE WITH PUT, SO IF YOU WANT MULTIPLE,
+                // EXECUTE MULTIPLE AJAX CALLS, ONE FOR EACH FILE 
+                // (separate progress bars for each file, etc, etc)
+
+                // Get the JavaScript version of the input, 
+                // then the first element of the files array (only sending one)
+                var file = $("form input[type='file']")[0].files[0]
+
+                var reader = new FileReader();
+
+                reader.onload = function(e) {
+                    var fileBinary = reader.result;
+                    var fileMimeType = file.type;
+                    makeAjaxCall(fileBinary, fileMimeType)
+                }
+
+                reader.readAsArrayBuffer(file);
+            });
+            
+            function makeAjaxCall(blob, mimeType) {
                 setProgress(0);
-                var formData = new FormData($('form')[0]);
+
                 $.ajax({
                         url: "uploadFile.php",
-                        type: "POST",
-                        data: formData,
+                        type: "PUT",
+                        data: blob,
                         processData: false,
                         contentType: false,
-                        mimeType: "multipart/form-data",
+                        mimeType: mimeType,
                         cache: false,
                         // This part gives up chunk progress of the file upload
                         xhr: function() {
@@ -103,7 +123,7 @@
                     .always(function() {
                         //console.log('done processing upload');
                     });
-            });
+            }
 
             function setProgress(percent) {
                 $(".progress-bar").css("width", +percent + "%");

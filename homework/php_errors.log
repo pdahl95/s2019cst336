@@ -1,0 +1,136 @@
+[30-Apr-2019 19:15:28 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 4
+[30-Apr-2019 19:15:28 UTC] PHP Stack trace:
+[30-Apr-2019 19:15:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 19:15:28 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 4
+[30-Apr-2019 19:15:28 UTC] PHP Stack trace:
+[30-Apr-2019 19:15:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 19:15:28 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 5
+[30-Apr-2019 19:15:28 UTC] PHP Stack trace:
+[30-Apr-2019 19:15:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 19:26:02 UTC] PHP Parse error:  syntax error, unexpected ''$email'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 17
+[30-Apr-2019 19:42:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 27
+[30-Apr-2019 19:42:56 UTC] PHP Stack trace:
+[30-Apr-2019 19:42:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 19:42:56 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:27
+[30-Apr-2019 21:16:00 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 15
+[30-Apr-2019 21:16:00 UTC] PHP Stack trace:
+[30-Apr-2019 21:16:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:16:00 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:15
+[30-Apr-2019 21:16:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 21
+[30-Apr-2019 21:16:00 UTC] PHP Stack trace:
+[30-Apr-2019 21:16:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:16:00 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:21
+[30-Apr-2019 21:16:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 31
+[30-Apr-2019 21:16:00 UTC] PHP Stack trace:
+[30-Apr-2019 21:16:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:16:00 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:31
+[30-Apr-2019 21:16:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 34
+[30-Apr-2019 21:16:00 UTC] PHP Stack trace:
+[30-Apr-2019 21:16:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:16:00 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:34
+[30-Apr-2019 21:18:06 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 15
+[30-Apr-2019 21:18:06 UTC] PHP Stack trace:
+[30-Apr-2019 21:18:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:18:06 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:15
+[30-Apr-2019 21:18:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 21
+[30-Apr-2019 21:18:06 UTC] PHP Stack trace:
+[30-Apr-2019 21:18:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:18:06 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:21
+[30-Apr-2019 21:18:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 31
+[30-Apr-2019 21:18:06 UTC] PHP Stack trace:
+[30-Apr-2019 21:18:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:18:06 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:31
+[30-Apr-2019 21:18:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 34
+[30-Apr-2019 21:18:06 UTC] PHP Stack trace:
+[30-Apr-2019 21:18:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:18:06 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:34
+[30-Apr-2019 21:18:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 21
+[30-Apr-2019 21:18:39 UTC] PHP Stack trace:
+[30-Apr-2019 21:18:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:18:39 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:21
+[30-Apr-2019 21:18:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 31
+[30-Apr-2019 21:18:39 UTC] PHP Stack trace:
+[30-Apr-2019 21:18:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:18:39 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:31
+[30-Apr-2019 21:18:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 34
+[30-Apr-2019 21:18:39 UTC] PHP Stack trace:
+[30-Apr-2019 21:18:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:18:39 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:34
+[30-Apr-2019 21:18:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 21
+[30-Apr-2019 21:18:49 UTC] PHP Stack trace:
+[30-Apr-2019 21:18:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:18:49 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:21
+[30-Apr-2019 21:18:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 31
+[30-Apr-2019 21:18:49 UTC] PHP Stack trace:
+[30-Apr-2019 21:18:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:18:49 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:31
+[30-Apr-2019 21:18:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 34
+[30-Apr-2019 21:18:49 UTC] PHP Stack trace:
+[30-Apr-2019 21:18:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[30-Apr-2019 21:18:49 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:34
+[01-May-2019 01:15:44 UTC] PHP Warning:  is_uploaded_file() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 9
+[01-May-2019 01:15:44 UTC] PHP Stack trace:
+[01-May-2019 01:15:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 01:15:44 UTC] PHP   2. is_uploaded_file() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:9
+[01-May-2019 02:26:20 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 8
+[01-May-2019 02:26:20 UTC] PHP Stack trace:
+[01-May-2019 02:26:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 02:26:20 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:8
+[01-May-2019 02:33:27 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 8
+[01-May-2019 02:33:27 UTC] PHP Stack trace:
+[01-May-2019 02:33:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 02:33:27 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:8
+[01-May-2019 05:14:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 17
+[01-May-2019 05:14:30 UTC] PHP Stack trace:
+[01-May-2019 05:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 05:14:30 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:17
+[01-May-2019 05:14:30 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 17
+[01-May-2019 05:14:30 UTC] PHP Stack trace:
+[01-May-2019 05:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 05:14:30 UTC] PHP   2. mysqli_error() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:17
+[01-May-2019 05:16:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 16
+[01-May-2019 05:16:00 UTC] PHP Stack trace:
+[01-May-2019 05:16:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 05:16:00 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:16
+[01-May-2019 05:16:00 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 16
+[01-May-2019 05:16:00 UTC] PHP Stack trace:
+[01-May-2019 05:16:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 05:16:00 UTC] PHP   2. mysqli_error() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:16
+[01-May-2019 05:16:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 16
+[01-May-2019 05:16:20 UTC] PHP Stack trace:
+[01-May-2019 05:16:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 05:16:20 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:16
+[01-May-2019 05:16:20 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 16
+[01-May-2019 05:16:20 UTC] PHP Stack trace:
+[01-May-2019 05:16:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 05:16:20 UTC] PHP   2. mysqli_error() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:16
+[01-May-2019 05:20:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 18
+[01-May-2019 05:20:56 UTC] PHP Stack trace:
+[01-May-2019 05:20:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 05:20:56 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:18
+[01-May-2019 05:20:56 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 18
+[01-May-2019 05:20:56 UTC] PHP Stack trace:
+[01-May-2019 05:20:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 05:20:56 UTC] PHP   2. mysqli_error() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:18
+[01-May-2019 05:24:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 18
+[01-May-2019 05:24:54 UTC] PHP Stack trace:
+[01-May-2019 05:24:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 05:24:54 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:18
+[01-May-2019 05:24:54 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 18
+[01-May-2019 05:24:54 UTC] PHP Stack trace:
+[01-May-2019 05:24:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 05:24:54 UTC] PHP   2. mysqli_error(*uninitialized*) /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:18
+[01-May-2019 05:29:02 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 21
+[01-May-2019 05:29:06 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 21
+[01-May-2019 05:46:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'media_dump.mediumblob'' doesn't exist' in /home/ubuntu/workspace/cst336/homework/project5/getImages.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/project5/getImages.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/project5/getImages.php on line 10
+[01-May-2019 06:24:47 UTC] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE) in /home/ubuntu/workspace/cst336/homework/project5/getImages.php on line 14
+[01-May-2019 07:01:54 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 30
+[01-May-2019 07:01:55 UTC] PHP Stack trace:
+[01-May-2019 07:01:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0
+[01-May-2019 07:01:55 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php on line 30
+[01-May-2019 07:01:55 UTC] PHP Stack trace:
+[01-May-2019 07:01:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/project5/uploadFile.php:0

@@ -18,10 +18,16 @@
         <h5> Please upload and share the beautiful captured moments. </h5>
 
         <form method="POST" action="uploadFile.php" enctype="multipart/form-data">
-            <!--Use multiple attribute and array for input name-->
-            Select file: <input type="file" multiple name="fileName[]" /> <br />
+            Use multiple attribute and array for input name Select file: <input type="file" multiple name="fileName[]" /> <br />
             <input class="inputCSS" type="submit" name="uploadForm" value="Upload File" />
         </form>
+
+        <div class="progress">
+            <div class="bar"></div>
+            <div class="percent">0%</div>
+        </div>
+
+        <div id="status"></div>
 
         <!--    <div id="myCarousel" class="carousel slide" data-ride="carousel">-->
         <!--         Indicators -->
