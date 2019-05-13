@@ -1,0 +1,76 @@
+#content {
+    width: 80%;
+    margin: auto;
+    /*border: 1px solid;*/
+}
+
+header {
+    height: 100px;
+}
+
+.invite {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#invite {
+    width: 40%;
+    height: auto;
+    margin-bottom: 35px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input[name="invite"] {
+    font-size: 24px;
+}
+
+#addSlots {
+    position: fixed;
+    top: 15%;
+    right: 10%;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#icon {
+    width: 50px;
+    height: 50px;
+}
+
+#iconAdd {
+    width: 25px;
+    height: 25px;
+}
+
+.modal-body input {
+    width: 40%;
+    clear: both;
+}
+
+#calIcon {
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+}
+
+.modalInput {
+    font-weight: bold;
+}
+
+#modalAddSlot {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+td div{
+    padding: 5px;
+}
+.modal-body div{
+    padding: 4px;
+}
+.deleteInfo{
+    padding: 4px;
+    font-weight: bold;
+}
+

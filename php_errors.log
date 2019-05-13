@@ -128,3 +128,39 @@
 [26-Mar-2019 21:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:0
 [26-Mar-2019 21:09:32 UTC] PHP   2. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/index.php:27
 [26-Mar-2019 21:09:32 UTC] PHP   3. require_once() /home/ubuntu/workspace/cst336/phpMyAdmin/libraries/common.inc.php:91
+[12-May-2019 07:56:21 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/availableApp.php on line 4
+[12-May-2019 07:56:21 UTC] PHP Stack trace:
+[12-May-2019 07:56:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/availableApp.php:0
+[12-May-2019 07:56:21 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/availableApp.php on line 4
+[12-May-2019 07:56:21 UTC] PHP Stack trace:
+[12-May-2019 07:56:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/availableApp.php:0
+[12-May-2019 07:56:21 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/final/availableApp.php on line 5
+[12-May-2019 07:56:21 UTC] PHP Stack trace:
+[12-May-2019 07:56:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/availableApp.php:0
+[12-May-2019 07:57:01 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/availableApp.php on line 4
+[12-May-2019 07:57:01 UTC] PHP Stack trace:
+[12-May-2019 07:57:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/availableApp.php:0
+[12-May-2019 07:57:01 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/availableApp.php on line 4
+[12-May-2019 07:57:01 UTC] PHP Stack trace:
+[12-May-2019 07:57:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/availableApp.php:0
+[12-May-2019 07:57:01 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/final/availableApp.php on line 5
+[12-May-2019 07:57:01 UTC] PHP Stack trace:
+[12-May-2019 07:57:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/availableApp.php:0
+[12-May-2019 07:57:08 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/availableApp.php on line 4
+[12-May-2019 07:57:08 UTC] PHP Stack trace:
+[12-May-2019 07:57:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/availableApp.php:0
+[12-May-2019 07:57:08 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/availableApp.php on line 4
+[12-May-2019 07:57:08 UTC] PHP Stack trace:
+[12-May-2019 07:57:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/availableApp.php:0
+[12-May-2019 07:57:08 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/final/availableApp.php on line 5
+[12-May-2019 07:57:08 UTC] PHP Stack trace:
+[12-May-2019 07:57:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/availableApp.php:0
+[12-May-2019 07:57:26 UTC] PHP Warning:  include(/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/availableApp.php on line 4
+[12-May-2019 07:57:26 UTC] PHP Stack trace:
+[12-May-2019 07:57:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/availableApp.php:0
+[12-May-2019 07:57:26 UTC] PHP Warning:  include(): Failed opening '/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/availableApp.php on line 4
+[12-May-2019 07:57:26 UTC] PHP Stack trace:
+[12-May-2019 07:57:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/availableApp.php:0
+[12-May-2019 07:57:26 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/final/availableApp.php on line 5
+[12-May-2019 07:57:26 UTC] PHP Stack trace:
+[12-May-2019 07:57:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/availableApp.php:0
