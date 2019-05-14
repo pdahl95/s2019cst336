@@ -5,7 +5,7 @@ $(document).ready(function() {
     $("#loginBtn").on("click", function() {
         $.ajax({
             type: "POST",
-            url: "php/addUser.php",
+            url: "login.php",
             dataType: "json",
             data: {
                 'email': $('[name=email]').val(),

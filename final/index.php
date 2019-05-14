@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+    <style type="text/css">
+        #loginButton{
+            position: fixed;
+            top: 0;
+            right:0;
+        }
+    </style>
     
 </head>
 
@@ -17,7 +23,11 @@
 
     <div id="content">
         <!--header without text-->
-        <header> </header>
+        <header> 
+      
+            <a id="loginButton" class="btn btn-danger" href="logout.php">Logout</a>
+      
+        </header>
         <!--invite link-->
         <div class="invite">
             Inviation Link: <input id="invite" type="text" name="invite" /> <img id="icon" src="https://www.kaspersky.com/content/en-global/images/icon-files.png"></img>
